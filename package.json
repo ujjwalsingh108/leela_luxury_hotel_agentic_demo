@@ -1,0 +1,19 @@
+{
+  "name": "leela_palace_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "mirror:theleela": "node tools/mirror-theleela.mjs https://www.theleela.com/ theleela_playwright_site",
+    "serve:theleela": "node tools/serve-static.mjs theleela_playwright_site 4173",
+    "serve:leela-api": "node tools/leela-api-server.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "playwright": "^1.61.1"
+  }
+}

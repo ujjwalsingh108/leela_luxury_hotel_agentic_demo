@@ -1,0 +1,19 @@
+/**
+ * tl-connect launcher must sit above booking bars and stay visible.
+ * Loaded with preprocess: false so local/dev picks it up without S3 aggregates.
+ */
+#userEngage.tl-connect__link,
+.tl-connect__link {
+  display: block !important;
+  z-index: 999997 !important;
+}
+
+.tl-connect__list {
+  z-index: 999997 !important;
+}
+
+.cx-side-button-group,
+.cx-widget.cx-webchat-chat-button,
+.leela-live-chat-fab {
+  display: none !important;
+}

@@ -1,0 +1,184 @@
+[
+  {
+    "tab": "Basic Information",
+    "screenshot": "D:\\ampcome\\leela_palace_demo\\metadata\\assistents-ai\\agent-tabs\\basic-information.png",
+    "text": "New Chat\nDashboard\nAgents\nRules\nWorkflows\nChannels\nEvaluate Agents\nData Center\nKnowledge Base\nAnalytics\nUD\nTL\nThe Leela Royal Arrival Intelligence Agent\nactive\nVersion: v17\nBasic Information\nAI Model Configuration\nData Sources\nPrompt Enhancements\nCapabilities\nTools\nOutbound API Integrations\nAuthentication\nConversation Starters\nKnowledge Base\nDirect URL Access\nWeb Embedding\nChannels\nAgent API Access\nVoice Configuration\nSmart Dock\nSave\nReset Chat\nThe Leela Royal Arrival Intelligence Agent\nNamaste. I can help prepare today’s VIP arrivals, surface service risks, identify tasteful upgrade or ancillary opportunities, and recommend approval-gated next-best actions for The Leela team.\nShow me today’s VIP arrivals and service risks.\nWhich guests should receive upgrade consideration today?\nFind high-value guests at risk of not returning.\nSummarize allergy, complaint, and VIP escalations for arrivals this week.\nCreate an executive arrival-readiness brief for the General Manager.",
+    "inputs": [
+      {
+        "tag": "input",
+        "type": "file",
+        "name": "",
+        "placeholder": "",
+        "value": ""
+      },
+      {
+        "tag": "input",
+        "type": "file",
+        "name": "",
+        "placeholder": "",
+        "value": ""
+      },
+      {
+        "tag": "textarea",
+        "type": "",
+        "name": "message",
+        "placeholder": "Ask a question...",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "tab": "Tools",
+    "screenshot": "D:\\ampcome\\leela_palace_demo\\metadata\\assistents-ai\\agent-tabs\\tools.png",
+    "text": "New Chat\nDashboard\nAgents\nRules\nWorkflows\nChannels\nEvaluate Agents\nData Center\nKnowledge Base\nAnalytics\nUD\nTL\nThe Leela Royal Arrival Intelligence Agent\nactive\nVersion: v17\nBasic Information\nAI Model Configuration\nData Sources\nPrompt Enhancements\nCapabilities\nTools\n\nConfigure which tools are available to this agent\n\n2 / 17 enabled\nDocuments\n\nCreate and manage documents\n\n0 / 2\nCreate Document\n\nCreate various types of documents and artifacts\n\nRequest Suggestions\n\nRequest AI-powered suggestions for document improvements\n\nData\n\nData fetching and processing\n\n2 / 10\nGenerate Chart\n\nGenerate interactive charts and visualizations from recent database query results. Supports bar, line, area, pie, scatter, composed and radar charts.\n\nSmart Suggestions\n\nGenerate context-aware follow-up questions and related topic suggestions based on conversation history\n\nGet Qlik Schema\n\nSearch Qlik app schema to find available tables, fields, and their types using vector search\n\nSetup Data Pipe\n\nConversational wizard for setting up data synchronization pipelines. Guides users through connector selection, configuration, data selection, and scheduling.\n\nGet Qlik Data\n\nExecute Qlik hypercube queries to retrieve data with dimensions and measures\n\nKnowledge Base Search\nConfigure\n\nSearch connected knowledge base documents to retrieve relevant information.\n\nBusiness Context Lookup\n\nLook up business terminology, metrics, rules, and operational context from the semantic layer. Enables AI to understand business-specific definitions and gather missing context from users.\n\nDataset Search\n\nSearch for relevant BI datasets using semantic search. Returns dataset configuration including available metrics, dimensions, temporal fields, and SQL query.\n\nPower BI Query\n\nExecute DAX queries against connected Power BI datasets to retrieve and analyze data\n\nDatabase Query\nConfigure\n\nExecute read-only SQL queries against connected databases to retrieve and analyze data\n\nIntegrations\n0 / 1\nExternal API\n\nCall configured external REST APIs to interact with third-party services and data sources\n\nRules\n\nDeterministic rules execution\n\n0 / 1\nRun Rules\nConfigure\n\nExecute deterministic business rules using GoRules Zen published rule versions\n\n0 rules configured\n\nUtilities\n\nHelper tools and utilities\n\n0 / 3\nWeb Search\n\nSearch the web for real-time information, company data, industry context, and general knowledge using neural search\n\nWeb Fetch\n\nFetch and extract content from a specific web page URL. Reads articles, documentation, blog posts, or any publicly accessible page.\n\nSandbox Code Execution\n\nExecute Python code in a secure sandbox with full pip package support and file generation (DOCX, XLSX, PDF, PNG, etc.)\n\nOutbound API Integrations\nAuthentication\nConversation Starters\nKnowledge Base\nDirect URL Access\nWeb Embedding\nChannels\nAgent API Access\nVoice Configuration\nSmart Dock\nSave\nReset Chat\nThe Leela Royal Arrival Intelligence Agent\nNamaste. I can help prepare today’s VIP arrivals, surface service risks, identify tasteful upgrade or ancillary opportunities, and recommend approval-gated next-best actions for The Leela team.\nShow me today’s VIP arrivals and service risks.\nWhich guests should receive upgrade consideration today?\nFind high-value guests at risk of not returning.\nSummarize allergy, complaint, and VIP escalations for arrivals this week.\nCreate an executive arrival-readiness brief for the General Manager.",
+    "inputs": [
+      {
+        "tag": "input",
+        "type": "file",
+        "name": "",
+        "placeholder": "",
+        "value": ""
+      },
+      {
+        "tag": "input",
+        "type": "file",
+        "name": "",
+        "placeholder": "",
+        "value": ""
+      },
+      {
+        "tag": "textarea",
+        "type": "",
+        "name": "message",
+        "placeholder": "Ask a question...",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "tab": "Outbound API Integrations",
+    "screenshot": "D:\\ampcome\\leela_palace_demo\\metadata\\assistents-ai\\agent-tabs\\outbound-api-integrations.png",
+    "text": "New Chat\nDashboard\nAgents\nRules\nWorkflows\nChannels\nEvaluate Agents\nData Center\nKnowledge Base\nAnalytics\nUD\nTL\nThe Leela Royal Arrival Intelligence Agent\nactive\nVersion: v17\nBasic Information\nAI Model Configuration\nData Sources\nPrompt Enhancements\nCapabilities\nTools\nOutbound API Integrations\n\nExternal API tool is not enabled\n\nEnable the \"External API\" tool in the Tools panel to configure API endpoints for this agent.\n\nGo to Tools Panel\nAuthentication\nConversation Starters\nKnowledge Base\nDirect URL Access\nWeb Embedding\nChannels\nAgent API Access\nVoice Configuration\nSmart Dock\nSave\nReset Chat\nThe Leela Royal Arrival Intelligence Agent\nNamaste. I can help prepare today’s VIP arrivals, surface service risks, identify tasteful upgrade or ancillary opportunities, and recommend approval-gated next-best actions for The Leela team.\nShow me today’s VIP arrivals and service risks.\nWhich guests should receive upgrade consideration today?\nFind high-value guests at risk of not returning.\nSummarize allergy, complaint, and VIP escalations for arrivals this week.\nCreate an executive arrival-readiness brief for the General Manager.",
+    "inputs": [
+      {
+        "tag": "input",
+        "type": "file",
+        "name": "",
+        "placeholder": "",
+        "value": ""
+      },
+      {
+        "tag": "input",
+        "type": "file",
+        "name": "",
+        "placeholder": "",
+        "value": ""
+      },
+      {
+        "tag": "textarea",
+        "type": "",
+        "name": "message",
+        "placeholder": "Ask a question...",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "tab": "Authentication",
+    "screenshot": "D:\\ampcome\\leela_palace_demo\\metadata\\assistents-ai\\agent-tabs\\authentication.png",
+    "text": "New Chat\nDashboard\nAgents\nRules\nWorkflows\nChannels\nEvaluate Agents\nData Center\nKnowledge Base\nAnalytics\nUD\nTL\nThe Leela Royal Arrival Intelligence Agent\nactive\nVersion: v17\nBasic Information\nAI Model Configuration\nData Sources\nPrompt Enhancements\nCapabilities\nTools\nOutbound API Integrations\nAuthentication\n\nConfigure authentication for external API calls\n\nEnable Authentication\n\nRequire authentication for external API calls\n\nSetup Required: Configure at least one login API endpoint in the REST API Configuration panel to enable authentication. Look for authentication tags like \"Login with Email and Password\" or \"Send OTP\" when adding your API endpoints.\n\nConversation Starters\nKnowledge Base\nDirect URL Access\nWeb Embedding\nChannels\nAgent API Access\nVoice Configuration\nSmart Dock\nSave\nReset Chat\nThe Leela Royal Arrival Intelligence Agent\nNamaste. I can help prepare today’s VIP arrivals, surface service risks, identify tasteful upgrade or ancillary opportunities, and recommend approval-gated next-best actions for The Leela team.\nShow me today’s VIP arrivals and service risks.\nWhich guests should receive upgrade consideration today?\nFind high-value guests at risk of not returning.\nSummarize allergy, complaint, and VIP escalations for arrivals this week.\nCreate an executive arrival-readiness brief for the General Manager.",
+    "inputs": [
+      {
+        "tag": "input",
+        "type": "file",
+        "name": "",
+        "placeholder": "",
+        "value": ""
+      },
+      {
+        "tag": "input",
+        "type": "file",
+        "name": "",
+        "placeholder": "",
+        "value": ""
+      },
+      {
+        "tag": "textarea",
+        "type": "",
+        "name": "message",
+        "placeholder": "Ask a question...",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "tab": "Conversation Starters",
+    "screenshot": "D:\\ampcome\\leela_palace_demo\\metadata\\assistents-ai\\agent-tabs\\conversation-starters.png",
+    "text": "New Chat\nDashboard\nAgents\nRules\nWorkflows\nChannels\nEvaluate Agents\nData Center\nKnowledge Base\nAnalytics\nUD\nTL\nThe Leela Royal Arrival Intelligence Agent\nactive\nVersion: v17\nBasic Information\nAI Model Configuration\nData Sources\nPrompt Enhancements\nCapabilities\nTools\nOutbound API Integrations\nAuthentication\nConversation Starters\n\nAdd conversation starters that users can click to begin a chat with this agent.\n\nShow me today’s VIP arrivals and service risks.\nWhich guests should receive upgrade consideration today?\nFind high-value guests at risk of not returning.\nSummarize allergy, complaint, and VIP escalations for arrivals this week.\nCreate an executive arrival-readiness brief for the General Manager.\nKnowledge Base\nDirect URL Access\nWeb Embedding\nChannels\nAgent API Access\nVoice Configuration\nSmart Dock\nSave\nReset Chat\nThe Leela Royal Arrival Intelligence Agent\nNamaste. I can help prepare today’s VIP arrivals, surface service risks, identify tasteful upgrade or ancillary opportunities, and recommend approval-gated next-best actions for The Leela team.\nShow me today’s VIP arrivals and service risks.\nWhich guests should receive upgrade consideration today?\nFind high-value guests at risk of not returning.\nSummarize allergy, complaint, and VIP escalations for arrivals this week.\nCreate an executive arrival-readiness brief for the General Manager.",
+    "inputs": [
+      {
+        "tag": "input",
+        "type": "file",
+        "name": "",
+        "placeholder": "",
+        "value": ""
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "name": "",
+        "placeholder": "Enter a conversation starter...",
+        "value": ""
+      },
+      {
+        "tag": "input",
+        "type": "file",
+        "name": "",
+        "placeholder": "",
+        "value": ""
+      },
+      {
+        "tag": "textarea",
+        "type": "",
+        "name": "message",
+        "placeholder": "Ask a question...",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "tab": "Knowledge Base",
+    "screenshot": "D:\\ampcome\\leela_palace_demo\\metadata\\assistents-ai\\agent-tabs\\knowledge-base.png",
+    "text": "New Chat\nDashboard\nAgents\nRules\nWorkflows\nChannels\nEvaluate Agents\nData Center\nKnowledge Base\nAnalytics\nUD\nTL\nThe Leela Royal Arrival Intelligence Agent\nactive\nVersion: v17\nBasic Information\nAI Model Configuration\nData Sources\nPrompt Enhancements\nCapabilities\nTools\nOutbound API Integrations\nAuthentication\nConversation Starters\n\nAdd conversation starters that users can click to begin a chat with this agent.\n\nShow me today’s VIP arrivals and service risks.\nWhich guests should receive upgrade consideration today?\nFind high-value guests at risk of not returning.\nSummarize allergy, complaint, and VIP escalations for arrivals this week.\nCreate an executive arrival-readiness brief for the General Manager.\nKnowledge Base\nDirect URL Access\nWeb Embedding\nChannels\nAgent API Access\nVoice Configuration\nSmart Dock\nSave\nReset Chat\nThe Leela Royal Arrival Intelligence Agent\nNamaste. I can help prepare today’s VIP arrivals, surface service risks, identify tasteful upgrade or ancillary opportunities, and recommend approval-gated next-best actions for The Leela team.\nShow me today’s VIP arrivals and service risks.\nWhich guests should receive upgrade consideration today?\nFind high-value guests at risk of not returning.\nSummarize allergy, complaint, and VIP escalations for arrivals this week.\nCreate an executive arrival-readiness brief for the General Manager.\nKnowledge Base\nDocuments\nTemplates",
+    "inputs": [
+      {
+        "tag": "input",
+        "type": "file",
+        "name": "",
+        "placeholder": "",
+        "value": ""
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "name": "",
+        "placeholder": "Enter a conversation starter...",
+        "value": ""
+      },
+      {
+        "tag": "input",
+        "type": "file",
+        "name": "",
+        "placeholder": "",
+        "value": ""
+      },
+      {
+        "tag": "textarea",
+        "type": "",
+        "name": "message",
+        "placeholder": "Ask a question...",
+        "value": ""
+      }
+    ]
+  }
+]

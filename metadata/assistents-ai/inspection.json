@@ -1,0 +1,2196 @@
+{
+  "capturedAt": "2026-06-29T11:06:42.569Z",
+  "baseUrl": "https://internal-workflow.assistents.ai/workflow",
+  "pages": [
+    {
+      "name": "workflow-home",
+      "url": "https://internal-workflow.assistents.ai/?agentId=26dc79ac-422a-4486-9492-29bf2daa6a99",
+      "title": "assistents.ai | AI Agents and Assistants to Automate Tools and Grow Business",
+      "headings": [],
+      "buttons": [
+        "WhiteGlove AI",
+        "Agents",
+        "Workflows",
+        "Data Center",
+        "Knowledge Base",
+        "Analytics",
+        "My Chats",
+        "Others' Chats",
+        "UD\ntest1@ampcome.com",
+        "Private",
+        "Show me today’s VIP arrivals and service risks.",
+        "Which guests should receive upgrade consideration today?",
+        "Find high-value guests at risk of not returning.",
+        "Summarize allergy, complaint, and VIP escalations for arrivals this week.",
+        "Create an executive arrival-readiness brief for the General Manager.",
+        "The Leela Royal Arrival Intelligence Agent"
+      ],
+      "links": [
+        {
+          "text": "assistents.ai",
+          "href": "https://internal-workflow.assistents.ai/?agentId=26dc79ac-422a-4486-9492-29bf2daa6a99"
+        },
+        {
+          "text": "New Chat",
+          "href": "https://internal-workflow.assistents.ai/?agentId=26dc79ac-422a-4486-9492-29bf2daa6a99"
+        },
+        {
+          "text": "Dashboard",
+          "href": "https://internal-workflow.assistents.ai/dashboard"
+        },
+        {
+          "text": "The Leela Royal Arrival Intelligence Agent",
+          "href": "https://internal-workflow.assistents.ai/agents/26dc79ac-422a-4486-9492-29bf2daa6a99/edit"
+        },
+        {
+          "text": "Manage Agents",
+          "href": "https://internal-workflow.assistents.ai/agents"
+        },
+        {
+          "text": "Agent Runs",
+          "href": "https://internal-workflow.assistents.ai/agents/runs"
+        },
+        {
+          "text": "Manage Prompts",
+          "href": "https://internal-workflow.assistents.ai/agents/prompts"
+        },
+        {
+          "text": "Rules",
+          "href": "https://internal-workflow.assistents.ai/rules"
+        },
+        {
+          "text": "All Workflows",
+          "href": "https://internal-workflow.assistents.ai/workflow"
+        },
+        {
+          "text": "Workflow Runs",
+          "href": "https://internal-workflow.assistents.ai/workflow/runs"
+        },
+        {
+          "text": "Tasks",
+          "href": "https://internal-workflow.assistents.ai/workflow/tasks"
+        },
+        {
+          "text": "Channels",
+          "href": "https://internal-workflow.assistents.ai/channels"
+        },
+        {
+          "text": "Evaluate Agents",
+          "href": "https://internal-workflow.assistents.ai/evaluateagents"
+        },
+        {
+          "text": "Tables",
+          "href": "https://internal-workflow.assistents.ai/datacenter/tables"
+        },
+        {
+          "text": "SQL Editor",
+          "href": "https://internal-workflow.assistents.ai/datacenter/sql-editor"
+        },
+        {
+          "text": "Data Sources",
+          "href": "https://internal-workflow.assistents.ai/datacenter/datasources"
+        },
+        {
+          "text": "Documents",
+          "href": "https://internal-workflow.assistents.ai/knowledgebase/documents"
+        },
+        {
+          "text": "Templates",
+          "href": "https://internal-workflow.assistents.ai/knowledgebase/templates"
+        },
+        {
+          "text": "Datasets",
+          "href": "https://internal-workflow.assistents.ai/analytics/datasets"
+        },
+        {
+          "text": "Charts",
+          "href": "https://internal-workflow.assistents.ai/analytics/charts"
+        },
+        {
+          "text": "Dashboards",
+          "href": "https://internal-workflow.assistents.ai/analytics/dashboards"
+        }
+      ],
+      "inputs": [
+        {
+          "tag": "input",
+          "type": "file",
+          "name": "",
+          "placeholder": "",
+          "aria": ""
+        },
+        {
+          "tag": "textarea",
+          "type": "",
+          "name": "message",
+          "placeholder": "Ask a question...",
+          "aria": ""
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "name": "",
+          "placeholder": "",
+          "aria": ""
+        }
+      ],
+      "visibleText": [
+        "assistents.ai\nWhiteGlove AI\nNew Chat\nDashboard\nAgents\nThe Leela Royal Arrival Intelligence Agent\nManage Agents\nAgent Runs\nManage Prompts\nRules\nWorkflows\nAll Workflows\nWorkflow Runs\nTasks\nChannels\nEvaluate Agents\nData Center\nTables\nSQL Editor\nData Sources\nKnowledge Base\nDocuments\nTemplates\nAnalytics\nDatasets\nCharts\nDashboards\nMy Chats\nOthers' Chats\nToday\nUD\ntest1@ampcome.com\nPrivate\nThe Leela Royal Arrival Intelligence Agent\nNamaste. I can help prepare today’s VIP arrivals, surface service risks, identify tasteful upgrade or ancillary opportunities, and recommend approval-gated next-best actions for The Leela team.\nShow me today’s VIP arrivals and service risks.\nWhich guests should receive upgrade consideration today?\nFind high-value guests at risk of not returning.\nSummarize allergy, complaint, and VIP escalations for arrivals this week.\nCreate an executive arrival-readiness brief for the General Manager.\nThe Leela Royal Arrival Intelligence Agent\nThe Leela Royal Arrival Intelligence Agent\nArchie",
+        "assistents.ai\nWhiteGlove AI\nNew Chat\nDashboard\nAgents\nThe Leela Royal Arrival Intelligence Agent\nManage Agents\nAgent Runs\nManage Prompts\nRules\nWorkflows\nAll Workflows\nWorkflow Runs\nTasks\nChannels\nEvaluate Agents\nData Center\nTables\nSQL Editor\nData Sources\nKnowledge Base\nDocuments\nTemplates\nAnalytics\nDatasets\nCharts\nDashboards\nMy Chats\nOthers' Chats\nToday\nUD\ntest1@ampcome.com",
+        "assistents.ai\nWhiteGlove AI",
+        "assistents.ai",
+        "WhiteGlove AI",
+        "New Chat\nDashboard\nAgents\nThe Leela Royal Arrival Intelligence Agent\nManage Agents\nAgent Runs\nManage Prompts\nRules\nWorkflows\nAll Workflows\nWorkflow Runs\nTasks\nChannels\nEvaluate Agents\nData Center\nTables\nSQL Editor\nData Sources\nKnowledge Base\nDocuments\nTemplates\nAnalytics\nDatasets\nCharts\nDashboards\nMy Chats\nOthers' Chats\nToday",
+        "New Chat\nDashboard\nAgents\nThe Leela Royal Arrival Intelligence Agent\nManage Agents\nAgent Runs\nManage Prompts\nRules\nWorkflows\nAll Workflows\nWorkflow Runs\nTasks\nChannels\nEvaluate Agents\nData Center\nTables\nSQL Editor\nData Sources\nKnowledge Base\nDocuments\nTemplates\nAnalytics\nDatasets\nCharts\nDashboards",
+        "New Chat",
+        "Dashboard",
+        "Agents\nThe Leela Royal Arrival Intelligence Agent\nManage Agents\nAgent Runs\nManage Prompts",
+        "Agents",
+        "The Leela Royal Arrival Intelligence Agent\nManage Agents\nAgent Runs\nManage Prompts",
+        "The Leela Royal Arrival Intelligence Agent",
+        "Manage Agents\nAgent Runs\nManage Prompts",
+        "Manage Agents",
+        "Agent Runs",
+        "Manage Prompts",
+        "Rules",
+        "Workflows\nAll Workflows\nWorkflow Runs\nTasks",
+        "Workflows",
+        "All Workflows\nWorkflow Runs\nTasks",
+        "All Workflows",
+        "Workflow Runs",
+        "Tasks",
+        "Channels",
+        "Evaluate Agents",
+        "Data Center\nTables\nSQL Editor\nData Sources",
+        "Data Center",
+        "Tables\nSQL Editor\nData Sources",
+        "Tables",
+        "SQL Editor",
+        "Data Sources",
+        "Knowledge Base\nDocuments\nTemplates",
+        "Knowledge Base",
+        "Documents\nTemplates",
+        "Documents",
+        "Templates",
+        "Analytics\nDatasets\nCharts\nDashboards",
+        "Analytics",
+        "Datasets\nCharts\nDashboards",
+        "Datasets",
+        "Charts",
+        "Dashboards",
+        "My Chats\nOthers' Chats\nToday",
+        "My Chats\nOthers' Chats",
+        "My Chats",
+        "Others' Chats",
+        "Today",
+        "UD\ntest1@ampcome.com",
+        "UD",
+        "test1@ampcome.com",
+        "Private\nThe Leela Royal Arrival Intelligence Agent\nNamaste. I can help prepare today’s VIP arrivals, surface service risks, identify tasteful upgrade or ancillary opportunities, and recommend approval-gated next-best actions for The Leela team.\nShow me today’s VIP arrivals and service risks.\nWhich guests should receive upgrade consideration today?\nFind high-value guests at risk of not returning.\nSummarize allergy, complaint, and VIP escalations for arrivals this week.\nCreate an executive arrival-readiness brief for the General Manager.\nThe Leela Royal Arrival Intelligence Agent\nThe Leela Royal Arrival Intelligence Agent\nArchie",
+        "Private",
+        "The Leela Royal Arrival Intelligence Agent\nNamaste. I can help prepare today’s VIP arrivals, surface service risks, identify tasteful upgrade or ancillary opportunities, and recommend approval-gated next-best actions for The Leela team.",
+        "Namaste. I can help prepare today’s VIP arrivals, surface service risks, identify tasteful upgrade or ancillary opportunities, and recommend approval-gated next-best actions for The Leela team.",
+        "Show me today’s VIP arrivals and service risks.\nWhich guests should receive upgrade consideration today?\nFind high-value guests at risk of not returning.\nSummarize allergy, complaint, and VIP escalations for arrivals this week.\nCreate an executive arrival-readiness brief for the General Manager.\nThe Leela Royal Arrival Intelligence Agent\nThe Leela Royal Arrival Intelligence Agent\nArchie",
+        "Show me today’s VIP arrivals and service risks.\nWhich guests should receive upgrade consideration today?\nFind high-value guests at risk of not returning.\nSummarize allergy, complaint, and VIP escalations for arrivals this week.\nCreate an executive arrival-readiness brief for the General Manager.",
+        "Show me today’s VIP arrivals and service risks.",
+        "Which guests should receive upgrade consideration today?",
+        "Find high-value guests at risk of not returning.",
+        "Summarize allergy, complaint, and VIP escalations for arrivals this week.",
+        "Create an executive arrival-readiness brief for the General Manager.",
+        "The Leela Royal Arrival Intelligence Agent\nThe Leela Royal Arrival Intelligence Agent\nArchie",
+        "The Leela Royal Arrival Intelligence Agent\nArchie",
+        "Archie"
+      ],
+      "screenshot": "D:\\ampcome\\leela_palace_demo\\metadata\\assistents-ai\\workflow-home.png"
+    },
+    {
+      "name": "manage-agents",
+      "url": "https://internal-workflow.assistents.ai/agents",
+      "title": "assistents.ai | AI Agents and Assistants to Automate Tools and Grow Business",
+      "headings": [
+        "Agents"
+      ],
+      "buttons": [
+        "WhiteGlove AI",
+        "Agents",
+        "Workflows",
+        "Data Center",
+        "Knowledge Base",
+        "Analytics",
+        "My Chats",
+        "Others' Chats",
+        "More",
+        "More",
+        "More",
+        "More",
+        "More",
+        "More",
+        "More",
+        "More",
+        "More",
+        "UD\ntest1@ampcome.com",
+        "Create Agent",
+        "All Categories",
+        "All Status",
+        "View Agent"
+      ],
+      "links": [
+        {
+          "text": "assistents.ai",
+          "href": "https://internal-workflow.assistents.ai/?agentId=26dc79ac-422a-4486-9492-29bf2daa6a99"
+        },
+        {
+          "text": "New Chat",
+          "href": "https://internal-workflow.assistents.ai/?agentId=26dc79ac-422a-4486-9492-29bf2daa6a99"
+        },
+        {
+          "text": "Dashboard",
+          "href": "https://internal-workflow.assistents.ai/dashboard"
+        },
+        {
+          "text": "The Leela Royal Arrival Intelligence Agent",
+          "href": "https://internal-workflow.assistents.ai/agents/26dc79ac-422a-4486-9492-29bf2daa6a99/edit"
+        },
+        {
+          "text": "Manage Agents",
+          "href": "https://internal-workflow.assistents.ai/agents"
+        },
+        {
+          "text": "Agent Runs",
+          "href": "https://internal-workflow.assistents.ai/agents/runs"
+        },
+        {
+          "text": "Manage Prompts",
+          "href": "https://internal-workflow.assistents.ai/agents/prompts"
+        },
+        {
+          "text": "Rules",
+          "href": "https://internal-workflow.assistents.ai/rules"
+        },
+        {
+          "text": "All Workflows",
+          "href": "https://internal-workflow.assistents.ai/workflow"
+        },
+        {
+          "text": "Workflow Runs",
+          "href": "https://internal-workflow.assistents.ai/workflow/runs"
+        },
+        {
+          "text": "Tasks",
+          "href": "https://internal-workflow.assistents.ai/workflow/tasks"
+        },
+        {
+          "text": "Channels",
+          "href": "https://internal-workflow.assistents.ai/channels"
+        },
+        {
+          "text": "Evaluate Agents",
+          "href": "https://internal-workflow.assistents.ai/evaluateagents"
+        },
+        {
+          "text": "Tables",
+          "href": "https://internal-workflow.assistents.ai/datacenter/tables"
+        },
+        {
+          "text": "SQL Editor",
+          "href": "https://internal-workflow.assistents.ai/datacenter/sql-editor"
+        },
+        {
+          "text": "Data Sources",
+          "href": "https://internal-workflow.assistents.ai/datacenter/datasources"
+        },
+        {
+          "text": "Documents",
+          "href": "https://internal-workflow.assistents.ai/knowledgebase/documents"
+        },
+        {
+          "text": "Templates",
+          "href": "https://internal-workflow.assistents.ai/knowledgebase/templates"
+        },
+        {
+          "text": "Datasets",
+          "href": "https://internal-workflow.assistents.ai/analytics/datasets"
+        },
+        {
+          "text": "Charts",
+          "href": "https://internal-workflow.assistents.ai/analytics/charts"
+        },
+        {
+          "text": "Dashboards",
+          "href": "https://internal-workflow.assistents.ai/analytics/dashboards"
+        },
+        {
+          "text": "Today’s VIP Arrivals and Service Risks",
+          "href": "https://internal-workflow.assistents.ai/chat/00508bd6-cac6-4bc9-8315-ffa1c8c783d9?agentId=26dc79ac-422a-4486-9492-29bf2daa6a99"
+        },
+        {
+          "text": "Executive Arrival-Readiness Brief for the General Manager",
+          "href": "https://internal-workflow.assistents.ai/chat/511732d1-8196-425b-8101-7d79027ede7d?agentId=26dc79ac-422a-4486-9492-29bf2daa6a99"
+        },
+        {
+          "text": "Weekly Summary of Allergy Complaints and VIP Escalations for Arrivals",
+          "href": "https://internal-workflow.assistents.ai/chat/80d0c8a0-fd82-4472-b6b4-bfff3ffcc9f3?agentId=26dc79ac-422a-4486-9492-29bf2daa6a99"
+        },
+        {
+          "text": "Identifying High-Value Guests at Risk of Not Returning",
+          "href": "https://internal-workflow.assistents.ai/chat/b6c227a2-12c1-4d9f-85c5-6f5202649b7e?agentId=26dc79ac-422a-4486-9492-29bf2daa6a99"
+        },
+        {
+          "text": "Guest Upgrade Consideration Recommendations",
+          "href": "https://internal-workflow.assistents.ai/chat/a2df5d5b-ad95-4697-80a3-f5f2c482d8d6?agentId=26dc79ac-422a-4486-9492-29bf2daa6a99"
+        },
+        {
+          "text": "Today’s VIP Arrivals and Service Risks",
+          "href": "https://internal-workflow.assistents.ai/chat/991da702-cec3-456c-909e-cc6589c7d1be?agentId=26dc79ac-422a-4486-9492-29bf2daa6a99"
+        },
+        {
+          "text": "Identify High-Value Guests at Risk of Not Returning",
+          "href": "https://internal-workflow.assistents.ai/chat/634198e8-183c-41d9-899d-f9f667b2d1bc?agentId=26dc79ac-422a-4486-9492-29bf2daa6a99"
+        },
+        {
+          "text": "Executive Arrival-Readiness Brief for the General Manager",
+          "href": "https://internal-workflow.assistents.ai/chat/01fdd7ee-c39f-41d9-ac77-74689991637b?agentId=26dc79ac-422a-4486-9492-29bf2daa6a99"
+        },
+        {
+          "text": "Today’s VIP Arrivals and Service Risks",
+          "href": "https://internal-workflow.assistents.ai/chat/efc3430e-5d29-4fa7-be51-4be87babfbda?agentId=26dc79ac-422a-4486-9492-29bf2daa6a99"
+        }
+      ],
+      "inputs": [
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "",
+          "placeholder": "Search agents...",
+          "aria": ""
+        }
+      ],
+      "visibleText": [
+        "assistents.ai\nWhiteGlove AI\nNew Chat\nDashboard\nAgents\nThe Leela Royal Arrival Intelligence Agent\nManage Agents\nAgent Runs\nManage Prompts\nRules\nWorkflows\nAll Workflows\nWorkflow Runs\nTasks\nChannels\nEvaluate Agents\nData Center\nTables\nSQL Editor\nData Sources\nKnowledge Base\nDocuments\nTemplates\nAnalytics\nDatasets\nCharts\nDashboards\nMy Chats\nOthers' Chats\nToday\nToday’s VIP Arrivals and Service Risks\nMore\nYesterday\nExecutive Arrival-Readiness Brief for the General Manager\nMore\nWeekly Summary of Allergy Complaints and VIP Escalations for Arrivals\nMore\nIdentifying High-Value Guests at Risk of Not Returning\nMore\nGuest Upgrade Consideration Recommendations\nMore\nToday’s VIP Arrivals and Service Risks\nMore\nIdentify High-Value Guests at Risk of Not Returning\nMore\nExecutive Arrival-Readiness Brief for the General Manager\nMore\nToday’s VIP Arrivals and Service Risks\nMore\nYou have reached the end of your chat history.\nUD\ntest1@ampcome.com\nAgents\n\nManage and discover AI agents for your conversations\n\nCreate Agent\nAll Categories\nAll Status\nTL\nThe Leela Royal Arrival Intelligence Agent\nAn executive-grade hospitality intelligence agent for The Leela Palace demo. It analyzes synthetic PMS, loyalty, bookings, guest preferences, feedback, service requests, revenue transactions, and hotel knowledge-base documents to identify VIP arrivals, service risks, upgrade opportunities, pre-arrival personalization needs, and human-approved next-best actions. The agent speaks in a warm, discreet luxury hospitality tone and helps General Managers, Front Office, Guest Relations, Revenue, F&B, Spa, and Concierge teams prepare exceptional arrivals without replacing the human service experience.\nPrivate\nStream\nFunc\nView Agent\n\nShowing 1 of 1 accessible agent",
+        "assistents.ai\nWhiteGlove AI\nNew Chat\nDashboard\nAgents\nThe Leela Royal Arrival Intelligence Agent\nManage Agents\nAgent Runs\nManage Prompts\nRules\nWorkflows\nAll Workflows\nWorkflow Runs\nTasks\nChannels\nEvaluate Agents\nData Center\nTables\nSQL Editor\nData Sources\nKnowledge Base\nDocuments\nTemplates\nAnalytics\nDatasets\nCharts\nDashboards\nMy Chats\nOthers' Chats\nToday\nToday’s VIP Arrivals and Service Risks\nMore\nYesterday\nExecutive Arrival-Readiness Brief for the General Manager\nMore\nWeekly Summary of Allergy Complaints and VIP Escalations for Arrivals\nMore\nIdentifying High-Value Guests at Risk of Not Returning\nMore\nGuest Upgrade Consideration Recommendations\nMore\nToday’s VIP Arrivals and Service Risks\nMore\nIdentify High-Value Guests at Risk of Not Returning\nMore\nExecutive Arrival-Readiness Brief for the General Manager\nMore\nToday’s VIP Arrivals and Service Risks\nMore\nYou have reached the end of your chat history.\nUD\ntest1@ampcome.com",
+        "assistents.ai\nWhiteGlove AI",
+        "assistents.ai",
+        "WhiteGlove AI",
+        "New Chat\nDashboard\nAgents\nThe Leela Royal Arrival Intelligence Agent\nManage Agents\nAgent Runs\nManage Prompts\nRules\nWorkflows\nAll Workflows\nWorkflow Runs\nTasks\nChannels\nEvaluate Agents\nData Center\nTables\nSQL Editor\nData Sources\nKnowledge Base\nDocuments\nTemplates\nAnalytics\nDatasets\nCharts\nDashboards\nMy Chats\nOthers' Chats\nToday\nToday’s VIP Arrivals and Service Risks\nMore\nYesterday\nExecutive Arrival-Readiness Brief for the General Manager\nMore\nWeekly Summary of Allergy Complaints and VIP Escalations for Arrivals\nMore\nIdentifying High-Value Guests at Risk of Not Returning\nMore\nGuest Upgrade Consideration Recommendations\nMore\nToday’s VIP Arrivals and Service Risks\nMore\nIdentify High-Value Guests at Risk of Not Returning\nMore\nExecutive Arrival-Readiness Brief for the General Manager\nMore\nToday’s VIP Arrivals and Service Risks\nMore\nYou have reached the end of your chat history.",
+        "New Chat\nDashboard\nAgents\nThe Leela Royal Arrival Intelligence Agent\nManage Agents\nAgent Runs\nManage Prompts\nRules\nWorkflows\nAll Workflows\nWorkflow Runs\nTasks\nChannels\nEvaluate Agents\nData Center\nTables\nSQL Editor\nData Sources\nKnowledge Base\nDocuments\nTemplates\nAnalytics\nDatasets\nCharts\nDashboards",
+        "New Chat",
+        "Dashboard",
+        "Agents\nThe Leela Royal Arrival Intelligence Agent\nManage Agents\nAgent Runs\nManage Prompts",
+        "Agents",
+        "The Leela Royal Arrival Intelligence Agent\nManage Agents\nAgent Runs\nManage Prompts",
+        "The Leela Royal Arrival Intelligence Agent",
+        "Manage Agents\nAgent Runs\nManage Prompts",
+        "Manage Agents",
+        "Agent Runs",
+        "Manage Prompts",
+        "Rules",
+        "Workflows\nAll Workflows\nWorkflow Runs\nTasks",
+        "Workflows",
+        "All Workflows\nWorkflow Runs\nTasks",
+        "All Workflows",
+        "Workflow Runs",
+        "Tasks",
+        "Channels",
+        "Evaluate Agents",
+        "Data Center\nTables\nSQL Editor\nData Sources",
+        "Data Center",
+        "Tables\nSQL Editor\nData Sources",
+        "Tables",
+        "SQL Editor",
+        "Data Sources",
+        "Knowledge Base\nDocuments\nTemplates",
+        "Knowledge Base",
+        "Documents\nTemplates",
+        "Documents",
+        "Templates",
+        "Analytics\nDatasets\nCharts\nDashboards",
+        "Analytics",
+        "Datasets\nCharts\nDashboards",
+        "Datasets",
+        "Charts",
+        "Dashboards",
+        "My Chats\nOthers' Chats\nToday\nToday’s VIP Arrivals and Service Risks\nMore\nYesterday\nExecutive Arrival-Readiness Brief for the General Manager\nMore\nWeekly Summary of Allergy Complaints and VIP Escalations for Arrivals\nMore\nIdentifying High-Value Guests at Risk of Not Returning\nMore\nGuest Upgrade Consideration Recommendations\nMore\nToday’s VIP Arrivals and Service Risks\nMore\nIdentify High-Value Guests at Risk of Not Returning\nMore\nExecutive Arrival-Readiness Brief for the General Manager\nMore\nToday’s VIP Arrivals and Service Risks\nMore\nYou have reached the end of your chat history.",
+        "My Chats\nOthers' Chats",
+        "My Chats",
+        "Others' Chats",
+        "Today\nToday’s VIP Arrivals and Service Risks\nMore\nYesterday\nExecutive Arrival-Readiness Brief for the General Manager\nMore\nWeekly Summary of Allergy Complaints and VIP Escalations for Arrivals\nMore\nIdentifying High-Value Guests at Risk of Not Returning\nMore\nGuest Upgrade Consideration Recommendations\nMore\nToday’s VIP Arrivals and Service Risks\nMore\nIdentify High-Value Guests at Risk of Not Returning\nMore\nExecutive Arrival-Readiness Brief for the General Manager\nMore\nToday’s VIP Arrivals and Service Risks\nMore\nYou have reached the end of your chat history.",
+        "Today\nToday’s VIP Arrivals and Service Risks\nMore\nYesterday\nExecutive Arrival-Readiness Brief for the General Manager\nMore\nWeekly Summary of Allergy Complaints and VIP Escalations for Arrivals\nMore\nIdentifying High-Value Guests at Risk of Not Returning\nMore\nGuest Upgrade Consideration Recommendations\nMore\nToday’s VIP Arrivals and Service Risks\nMore\nIdentify High-Value Guests at Risk of Not Returning\nMore\nExecutive Arrival-Readiness Brief for the General Manager\nMore\nToday’s VIP Arrivals and Service Risks\nMore",
+        "Today\nToday’s VIP Arrivals and Service Risks\nMore",
+        "Today",
+        "Today’s VIP Arrivals and Service Risks\nMore",
+        "Today’s VIP Arrivals and Service Risks",
+        "More",
+        "Yesterday\nExecutive Arrival-Readiness Brief for the General Manager\nMore\nWeekly Summary of Allergy Complaints and VIP Escalations for Arrivals\nMore\nIdentifying High-Value Guests at Risk of Not Returning\nMore\nGuest Upgrade Consideration Recommendations\nMore\nToday’s VIP Arrivals and Service Risks\nMore\nIdentify High-Value Guests at Risk of Not Returning\nMore\nExecutive Arrival-Readiness Brief for the General Manager\nMore\nToday’s VIP Arrivals and Service Risks\nMore",
+        "Yesterday",
+        "Executive Arrival-Readiness Brief for the General Manager\nMore",
+        "Executive Arrival-Readiness Brief for the General Manager",
+        "Weekly Summary of Allergy Complaints and VIP Escalations for Arrivals\nMore",
+        "Weekly Summary of Allergy Complaints and VIP Escalations for Arrivals",
+        "Identifying High-Value Guests at Risk of Not Returning\nMore",
+        "Identifying High-Value Guests at Risk of Not Returning",
+        "Guest Upgrade Consideration Recommendations\nMore",
+        "Guest Upgrade Consideration Recommendations",
+        "Identify High-Value Guests at Risk of Not Returning\nMore",
+        "Identify High-Value Guests at Risk of Not Returning",
+        "You have reached the end of your chat history.",
+        "UD\ntest1@ampcome.com",
+        "UD",
+        "test1@ampcome.com",
+        "Agents\n\nManage and discover AI agents for your conversations\n\nCreate Agent\nAll Categories\nAll Status\nTL\nThe Leela Royal Arrival Intelligence Agent\nAn executive-grade hospitality intelligence agent for The Leela Palace demo. It analyzes synthetic PMS, loyalty, bookings, guest preferences, feedback, service requests, revenue transactions, and hotel knowledge-base documents to identify VIP arrivals, service risks, upgrade opportunities, pre-arrival personalization needs, and human-approved next-best actions. The agent speaks in a warm, discreet luxury hospitality tone and helps General Managers, Front Office, Guest Relations, Revenue, F&B, Spa, and Concierge teams prepare exceptional arrivals without replacing the human service experience.\nPrivate\nStream\nFunc\nView Agent\n\nShowing 1 of 1 accessible agent",
+        "Agents\n\nManage and discover AI agents for your conversations\n\nCreate Agent",
+        "Agents\n\nManage and discover AI agents for your conversations",
+        "Manage and discover AI agents for your conversations",
+        "Create Agent",
+        "All Categories\nAll Status",
+        "All Categories",
+        "All Status",
+        "TL\nThe Leela Royal Arrival Intelligence Agent\nAn executive-grade hospitality intelligence agent for The Leela Palace demo. It analyzes synthetic PMS, loyalty, bookings, guest preferences, feedback, service requests, revenue transactions, and hotel knowledge-base documents to identify VIP arrivals, service risks, upgrade opportunities, pre-arrival personalization needs, and human-approved next-best actions. The agent speaks in a warm, discreet luxury hospitality tone and helps General Managers, Front Office, Guest Relations, Revenue, F&B, Spa, and Concierge teams prepare exceptional arrivals without replacing the human service experience.\nPrivate\nStream\nFunc\nView Agent",
+        "TL\nThe Leela Royal Arrival Intelligence Agent\nAn executive-grade hospitality intelligence agent for The Leela Palace demo. It analyzes synthetic PMS, loyalty, bookings, guest preferences, feedback, service requests, revenue transactions, and hotel knowledge-base documents to identify VIP arrivals, service risks, upgrade opportunities, pre-arrival personalization needs, and human-approved next-best actions. The agent speaks in a warm, discreet luxury hospitality tone and helps General Managers, Front Office, Guest Relations, Revenue, F&B, Spa, and Concierge teams prepare exceptional arrivals without replacing the human service experience.",
+        "TL",
+        "The Leela Royal Arrival Intelligence Agent\nAn executive-grade hospitality intelligence agent for The Leela Palace demo. It analyzes synthetic PMS, loyalty, bookings, guest preferences, feedback, service requests, revenue transactions, and hotel knowledge-base documents to identify VIP arrivals, service risks, upgrade opportunities, pre-arrival personalization needs, and human-approved next-best actions. The agent speaks in a warm, discreet luxury hospitality tone and helps General Managers, Front Office, Guest Relations, Revenue, F&B, Spa, and Concierge teams prepare exceptional arrivals without replacing the human service experience.",
+        "An executive-grade hospitality intelligence agent for The Leela Palace demo. It analyzes synthetic PMS, loyalty, bookings, guest preferences, feedback, service requests, revenue transactions, and hotel knowledge-base documents to identify VIP arrivals, service risks, upgrade opportunities, pre-arrival personalization needs, and human-approved next-best actions. The agent speaks in a warm, discreet luxury hospitality tone and helps General Managers, Front Office, Guest Relations, Revenue, F&B, Spa, and Concierge teams prepare exceptional arrivals without replacing the human service experience.",
+        "Private\nStream\nFunc",
+        "Private",
+        "Stream",
+        "Func",
+        "View Agent",
+        "Showing 1 of 1 accessible agent"
+      ],
+      "screenshot": "D:\\ampcome\\leela_palace_demo\\metadata\\assistents-ai\\manage-agents.png"
+    },
+    {
+      "name": "the-leela-royal",
+      "url": "https://internal-workflow.assistents.ai/agents",
+      "title": "assistents.ai | AI Agents and Assistants to Automate Tools and Grow Business",
+      "headings": [
+        "Agents"
+      ],
+      "buttons": [
+        "WhiteGlove AI",
+        "Agents",
+        "Workflows",
+        "Data Center",
+        "Knowledge Base",
+        "Analytics",
+        "My Chats",
+        "Others' Chats",
+        "More",
+        "More",
+        "More",
+        "More",
+        "More",
+        "More",
+        "More",
+        "More",
+        "More",
+        "UD\ntest1@ampcome.com",
+        "Create Agent",
+        "All Categories",
+        "All Status",
+        "View Agent"
+      ],
+      "links": [
+        {
+          "text": "assistents.ai",
+          "href": "https://internal-workflow.assistents.ai/?agentId=26dc79ac-422a-4486-9492-29bf2daa6a99"
+        },
+        {
+          "text": "New Chat",
+          "href": "https://internal-workflow.assistents.ai/?agentId=26dc79ac-422a-4486-9492-29bf2daa6a99"
+        },
+        {
+          "text": "Dashboard",
+          "href": "https://internal-workflow.assistents.ai/dashboard"
+        },
+        {
+          "text": "The Leela Royal Arrival Intelligence Agent",
+          "href": "https://internal-workflow.assistents.ai/agents/26dc79ac-422a-4486-9492-29bf2daa6a99/edit"
+        },
+        {
+          "text": "Manage Agents",
+          "href": "https://internal-workflow.assistents.ai/agents"
+        },
+        {
+          "text": "Agent Runs",
+          "href": "https://internal-workflow.assistents.ai/agents/runs"
+        },
+        {
+          "text": "Manage Prompts",
+          "href": "https://internal-workflow.assistents.ai/agents/prompts"
+        },
+        {
+          "text": "Rules",
+          "href": "https://internal-workflow.assistents.ai/rules"
+        },
+        {
+          "text": "All Workflows",
+          "href": "https://internal-workflow.assistents.ai/workflow"
+        },
+        {
+          "text": "Workflow Runs",
+          "href": "https://internal-workflow.assistents.ai/workflow/runs"
+        },
+        {
+          "text": "Tasks",
+          "href": "https://internal-workflow.assistents.ai/workflow/tasks"
+        },
+        {
+          "text": "Channels",
+          "href": "https://internal-workflow.assistents.ai/channels"
+        },
+        {
+          "text": "Evaluate Agents",
+          "href": "https://internal-workflow.assistents.ai/evaluateagents"
+        },
+        {
+          "text": "Tables",
+          "href": "https://internal-workflow.assistents.ai/datacenter/tables"
+        },
+        {
+          "text": "SQL Editor",
+          "href": "https://internal-workflow.assistents.ai/datacenter/sql-editor"
+        },
+        {
+          "text": "Data Sources",
+          "href": "https://internal-workflow.assistents.ai/datacenter/datasources"
+        },
+        {
+          "text": "Documents",
+          "href": "https://internal-workflow.assistents.ai/knowledgebase/documents"
+        },
+        {
+          "text": "Templates",
+          "href": "https://internal-workflow.assistents.ai/knowledgebase/templates"
+        },
+        {
+          "text": "Datasets",
+          "href": "https://internal-workflow.assistents.ai/analytics/datasets"
+        },
+        {
+          "text": "Charts",
+          "href": "https://internal-workflow.assistents.ai/analytics/charts"
+        },
+        {
+          "text": "Dashboards",
+          "href": "https://internal-workflow.assistents.ai/analytics/dashboards"
+        },
+        {
+          "text": "Today’s VIP Arrivals and Service Risks",
+          "href": "https://internal-workflow.assistents.ai/chat/00508bd6-cac6-4bc9-8315-ffa1c8c783d9?agentId=26dc79ac-422a-4486-9492-29bf2daa6a99"
+        },
+        {
+          "text": "Executive Arrival-Readiness Brief for the General Manager",
+          "href": "https://internal-workflow.assistents.ai/chat/511732d1-8196-425b-8101-7d79027ede7d?agentId=26dc79ac-422a-4486-9492-29bf2daa6a99"
+        },
+        {
+          "text": "Weekly Summary of Allergy Complaints and VIP Escalations for Arrivals",
+          "href": "https://internal-workflow.assistents.ai/chat/80d0c8a0-fd82-4472-b6b4-bfff3ffcc9f3?agentId=26dc79ac-422a-4486-9492-29bf2daa6a99"
+        },
+        {
+          "text": "Identifying High-Value Guests at Risk of Not Returning",
+          "href": "https://internal-workflow.assistents.ai/chat/b6c227a2-12c1-4d9f-85c5-6f5202649b7e?agentId=26dc79ac-422a-4486-9492-29bf2daa6a99"
+        },
+        {
+          "text": "Guest Upgrade Consideration Recommendations",
+          "href": "https://internal-workflow.assistents.ai/chat/a2df5d5b-ad95-4697-80a3-f5f2c482d8d6?agentId=26dc79ac-422a-4486-9492-29bf2daa6a99"
+        },
+        {
+          "text": "Today’s VIP Arrivals and Service Risks",
+          "href": "https://internal-workflow.assistents.ai/chat/991da702-cec3-456c-909e-cc6589c7d1be?agentId=26dc79ac-422a-4486-9492-29bf2daa6a99"
+        },
+        {
+          "text": "Identify High-Value Guests at Risk of Not Returning",
+          "href": "https://internal-workflow.assistents.ai/chat/634198e8-183c-41d9-899d-f9f667b2d1bc?agentId=26dc79ac-422a-4486-9492-29bf2daa6a99"
+        },
+        {
+          "text": "Executive Arrival-Readiness Brief for the General Manager",
+          "href": "https://internal-workflow.assistents.ai/chat/01fdd7ee-c39f-41d9-ac77-74689991637b?agentId=26dc79ac-422a-4486-9492-29bf2daa6a99"
+        },
+        {
+          "text": "Today’s VIP Arrivals and Service Risks",
+          "href": "https://internal-workflow.assistents.ai/chat/efc3430e-5d29-4fa7-be51-4be87babfbda?agentId=26dc79ac-422a-4486-9492-29bf2daa6a99"
+        }
+      ],
+      "inputs": [
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "",
+          "placeholder": "Search agents...",
+          "aria": ""
+        }
+      ],
+      "visibleText": [
+        "assistents.ai\nWhiteGlove AI\nNew Chat\nDashboard\nAgents\nThe Leela Royal Arrival Intelligence Agent\nManage Agents\nAgent Runs\nManage Prompts\nRules\nWorkflows\nAll Workflows\nWorkflow Runs\nTasks\nChannels\nEvaluate Agents\nData Center\nTables\nSQL Editor\nData Sources\nKnowledge Base\nDocuments\nTemplates\nAnalytics\nDatasets\nCharts\nDashboards\nMy Chats\nOthers' Chats\nToday\nToday’s VIP Arrivals and Service Risks\nMore\nYesterday\nExecutive Arrival-Readiness Brief for the General Manager\nMore\nWeekly Summary of Allergy Complaints and VIP Escalations for Arrivals\nMore\nIdentifying High-Value Guests at Risk of Not Returning\nMore\nGuest Upgrade Consideration Recommendations\nMore\nToday’s VIP Arrivals and Service Risks\nMore\nIdentify High-Value Guests at Risk of Not Returning\nMore\nExecutive Arrival-Readiness Brief for the General Manager\nMore\nToday’s VIP Arrivals and Service Risks\nMore\nYou have reached the end of your chat history.\nUD\ntest1@ampcome.com\nAgents\n\nManage and discover AI agents for your conversations\n\nCreate Agent\nAll Categories\nAll Status\nTL\nThe Leela Royal Arrival Intelligence Agent\nAn executive-grade hospitality intelligence agent for The Leela Palace demo. It analyzes synthetic PMS, loyalty, bookings, guest preferences, feedback, service requests, revenue transactions, and hotel knowledge-base documents to identify VIP arrivals, service risks, upgrade opportunities, pre-arrival personalization needs, and human-approved next-best actions. The agent speaks in a warm, discreet luxury hospitality tone and helps General Managers, Front Office, Guest Relations, Revenue, F&B, Spa, and Concierge teams prepare exceptional arrivals without replacing the human service experience.\nPrivate\nStream\nFunc\nView Agent\n\nShowing 1 of 1 accessible agent",
+        "assistents.ai\nWhiteGlove AI\nNew Chat\nDashboard\nAgents\nThe Leela Royal Arrival Intelligence Agent\nManage Agents\nAgent Runs\nManage Prompts\nRules\nWorkflows\nAll Workflows\nWorkflow Runs\nTasks\nChannels\nEvaluate Agents\nData Center\nTables\nSQL Editor\nData Sources\nKnowledge Base\nDocuments\nTemplates\nAnalytics\nDatasets\nCharts\nDashboards\nMy Chats\nOthers' Chats\nToday\nToday’s VIP Arrivals and Service Risks\nMore\nYesterday\nExecutive Arrival-Readiness Brief for the General Manager\nMore\nWeekly Summary of Allergy Complaints and VIP Escalations for Arrivals\nMore\nIdentifying High-Value Guests at Risk of Not Returning\nMore\nGuest Upgrade Consideration Recommendations\nMore\nToday’s VIP Arrivals and Service Risks\nMore\nIdentify High-Value Guests at Risk of Not Returning\nMore\nExecutive Arrival-Readiness Brief for the General Manager\nMore\nToday’s VIP Arrivals and Service Risks\nMore\nYou have reached the end of your chat history.\nUD\ntest1@ampcome.com",
+        "assistents.ai\nWhiteGlove AI",
+        "assistents.ai",
+        "WhiteGlove AI",
+        "New Chat\nDashboard\nAgents\nThe Leela Royal Arrival Intelligence Agent\nManage Agents\nAgent Runs\nManage Prompts\nRules\nWorkflows\nAll Workflows\nWorkflow Runs\nTasks\nChannels\nEvaluate Agents\nData Center\nTables\nSQL Editor\nData Sources\nKnowledge Base\nDocuments\nTemplates\nAnalytics\nDatasets\nCharts\nDashboards\nMy Chats\nOthers' Chats\nToday\nToday’s VIP Arrivals and Service Risks\nMore\nYesterday\nExecutive Arrival-Readiness Brief for the General Manager\nMore\nWeekly Summary of Allergy Complaints and VIP Escalations for Arrivals\nMore\nIdentifying High-Value Guests at Risk of Not Returning\nMore\nGuest Upgrade Consideration Recommendations\nMore\nToday’s VIP Arrivals and Service Risks\nMore\nIdentify High-Value Guests at Risk of Not Returning\nMore\nExecutive Arrival-Readiness Brief for the General Manager\nMore\nToday’s VIP Arrivals and Service Risks\nMore\nYou have reached the end of your chat history.",
+        "New Chat\nDashboard\nAgents\nThe Leela Royal Arrival Intelligence Agent\nManage Agents\nAgent Runs\nManage Prompts\nRules\nWorkflows\nAll Workflows\nWorkflow Runs\nTasks\nChannels\nEvaluate Agents\nData Center\nTables\nSQL Editor\nData Sources\nKnowledge Base\nDocuments\nTemplates\nAnalytics\nDatasets\nCharts\nDashboards",
+        "New Chat",
+        "Dashboard",
+        "Agents\nThe Leela Royal Arrival Intelligence Agent\nManage Agents\nAgent Runs\nManage Prompts",
+        "Agents",
+        "The Leela Royal Arrival Intelligence Agent\nManage Agents\nAgent Runs\nManage Prompts",
+        "The Leela Royal Arrival Intelligence Agent",
+        "Manage Agents\nAgent Runs\nManage Prompts",
+        "Manage Agents",
+        "Agent Runs",
+        "Manage Prompts",
+        "Rules",
+        "Workflows\nAll Workflows\nWorkflow Runs\nTasks",
+        "Workflows",
+        "All Workflows\nWorkflow Runs\nTasks",
+        "All Workflows",
+        "Workflow Runs",
+        "Tasks",
+        "Channels",
+        "Evaluate Agents",
+        "Data Center\nTables\nSQL Editor\nData Sources",
+        "Data Center",
+        "Tables\nSQL Editor\nData Sources",
+        "Tables",
+        "SQL Editor",
+        "Data Sources",
+        "Knowledge Base\nDocuments\nTemplates",
+        "Knowledge Base",
+        "Documents\nTemplates",
+        "Documents",
+        "Templates",
+        "Analytics\nDatasets\nCharts\nDashboards",
+        "Analytics",
+        "Datasets\nCharts\nDashboards",
+        "Datasets",
+        "Charts",
+        "Dashboards",
+        "My Chats\nOthers' Chats\nToday\nToday’s VIP Arrivals and Service Risks\nMore\nYesterday\nExecutive Arrival-Readiness Brief for the General Manager\nMore\nWeekly Summary of Allergy Complaints and VIP Escalations for Arrivals\nMore\nIdentifying High-Value Guests at Risk of Not Returning\nMore\nGuest Upgrade Consideration Recommendations\nMore\nToday’s VIP Arrivals and Service Risks\nMore\nIdentify High-Value Guests at Risk of Not Returning\nMore\nExecutive Arrival-Readiness Brief for the General Manager\nMore\nToday’s VIP Arrivals and Service Risks\nMore\nYou have reached the end of your chat history.",
+        "My Chats\nOthers' Chats",
+        "My Chats",
+        "Others' Chats",
+        "Today\nToday’s VIP Arrivals and Service Risks\nMore\nYesterday\nExecutive Arrival-Readiness Brief for the General Manager\nMore\nWeekly Summary of Allergy Complaints and VIP Escalations for Arrivals\nMore\nIdentifying High-Value Guests at Risk of Not Returning\nMore\nGuest Upgrade Consideration Recommendations\nMore\nToday’s VIP Arrivals and Service Risks\nMore\nIdentify High-Value Guests at Risk of Not Returning\nMore\nExecutive Arrival-Readiness Brief for the General Manager\nMore\nToday’s VIP Arrivals and Service Risks\nMore\nYou have reached the end of your chat history.",
+        "Today\nToday’s VIP Arrivals and Service Risks\nMore\nYesterday\nExecutive Arrival-Readiness Brief for the General Manager\nMore\nWeekly Summary of Allergy Complaints and VIP Escalations for Arrivals\nMore\nIdentifying High-Value Guests at Risk of Not Returning\nMore\nGuest Upgrade Consideration Recommendations\nMore\nToday’s VIP Arrivals and Service Risks\nMore\nIdentify High-Value Guests at Risk of Not Returning\nMore\nExecutive Arrival-Readiness Brief for the General Manager\nMore\nToday’s VIP Arrivals and Service Risks\nMore",
+        "Today\nToday’s VIP Arrivals and Service Risks\nMore",
+        "Today",
+        "Today’s VIP Arrivals and Service Risks\nMore",
+        "Today’s VIP Arrivals and Service Risks",
+        "More",
+        "Yesterday\nExecutive Arrival-Readiness Brief for the General Manager\nMore\nWeekly Summary of Allergy Complaints and VIP Escalations for Arrivals\nMore\nIdentifying High-Value Guests at Risk of Not Returning\nMore\nGuest Upgrade Consideration Recommendations\nMore\nToday’s VIP Arrivals and Service Risks\nMore\nIdentify High-Value Guests at Risk of Not Returning\nMore\nExecutive Arrival-Readiness Brief for the General Manager\nMore\nToday’s VIP Arrivals and Service Risks\nMore",
+        "Yesterday",
+        "Executive Arrival-Readiness Brief for the General Manager\nMore",
+        "Executive Arrival-Readiness Brief for the General Manager",
+        "Weekly Summary of Allergy Complaints and VIP Escalations for Arrivals\nMore",
+        "Weekly Summary of Allergy Complaints and VIP Escalations for Arrivals",
+        "Identifying High-Value Guests at Risk of Not Returning\nMore",
+        "Identifying High-Value Guests at Risk of Not Returning",
+        "Guest Upgrade Consideration Recommendations\nMore",
+        "Guest Upgrade Consideration Recommendations",
+        "Identify High-Value Guests at Risk of Not Returning\nMore",
+        "Identify High-Value Guests at Risk of Not Returning",
+        "You have reached the end of your chat history.",
+        "UD\ntest1@ampcome.com",
+        "UD",
+        "test1@ampcome.com",
+        "Agents\n\nManage and discover AI agents for your conversations\n\nCreate Agent\nAll Categories\nAll Status\nTL\nThe Leela Royal Arrival Intelligence Agent\nAn executive-grade hospitality intelligence agent for The Leela Palace demo. It analyzes synthetic PMS, loyalty, bookings, guest preferences, feedback, service requests, revenue transactions, and hotel knowledge-base documents to identify VIP arrivals, service risks, upgrade opportunities, pre-arrival personalization needs, and human-approved next-best actions. The agent speaks in a warm, discreet luxury hospitality tone and helps General Managers, Front Office, Guest Relations, Revenue, F&B, Spa, and Concierge teams prepare exceptional arrivals without replacing the human service experience.\nPrivate\nStream\nFunc\nView Agent\n\nShowing 1 of 1 accessible agent",
+        "Agents\n\nManage and discover AI agents for your conversations\n\nCreate Agent",
+        "Agents\n\nManage and discover AI agents for your conversations",
+        "Manage and discover AI agents for your conversations",
+        "Create Agent",
+        "All Categories\nAll Status",
+        "All Categories",
+        "All Status",
+        "TL\nThe Leela Royal Arrival Intelligence Agent\nAn executive-grade hospitality intelligence agent for The Leela Palace demo. It analyzes synthetic PMS, loyalty, bookings, guest preferences, feedback, service requests, revenue transactions, and hotel knowledge-base documents to identify VIP arrivals, service risks, upgrade opportunities, pre-arrival personalization needs, and human-approved next-best actions. The agent speaks in a warm, discreet luxury hospitality tone and helps General Managers, Front Office, Guest Relations, Revenue, F&B, Spa, and Concierge teams prepare exceptional arrivals without replacing the human service experience.\nPrivate\nStream\nFunc\nView Agent",
+        "TL\nThe Leela Royal Arrival Intelligence Agent\nAn executive-grade hospitality intelligence agent for The Leela Palace demo. It analyzes synthetic PMS, loyalty, bookings, guest preferences, feedback, service requests, revenue transactions, and hotel knowledge-base documents to identify VIP arrivals, service risks, upgrade opportunities, pre-arrival personalization needs, and human-approved next-best actions. The agent speaks in a warm, discreet luxury hospitality tone and helps General Managers, Front Office, Guest Relations, Revenue, F&B, Spa, and Concierge teams prepare exceptional arrivals without replacing the human service experience.",
+        "TL",
+        "The Leela Royal Arrival Intelligence Agent\nAn executive-grade hospitality intelligence agent for The Leela Palace demo. It analyzes synthetic PMS, loyalty, bookings, guest preferences, feedback, service requests, revenue transactions, and hotel knowledge-base documents to identify VIP arrivals, service risks, upgrade opportunities, pre-arrival personalization needs, and human-approved next-best actions. The agent speaks in a warm, discreet luxury hospitality tone and helps General Managers, Front Office, Guest Relations, Revenue, F&B, Spa, and Concierge teams prepare exceptional arrivals without replacing the human service experience.",
+        "An executive-grade hospitality intelligence agent for The Leela Palace demo. It analyzes synthetic PMS, loyalty, bookings, guest preferences, feedback, service requests, revenue transactions, and hotel knowledge-base documents to identify VIP arrivals, service risks, upgrade opportunities, pre-arrival personalization needs, and human-approved next-best actions. The agent speaks in a warm, discreet luxury hospitality tone and helps General Managers, Front Office, Guest Relations, Revenue, F&B, Spa, and Concierge teams prepare exceptional arrivals without replacing the human service experience.",
+        "Private\nStream\nFunc",
+        "Private",
+        "Stream",
+        "Func",
+        "View Agent",
+        "Showing 1 of 1 accessible agent"
+      ],
+      "screenshot": "D:\\ampcome\\leela_palace_demo\\metadata\\assistents-ai\\the-leela-royal.png"
+    },
+    {
+      "name": "manage-prompts",
+      "url": "https://internal-workflow.assistents.ai/agents",
+      "title": "assistents.ai | AI Agents and Assistants to Automate Tools and Grow Business",
+      "headings": [
+        "Agents"
+      ],
+      "buttons": [
+        "WhiteGlove AI",
+        "Agents",
+        "Workflows",
+        "Data Center",
+        "Knowledge Base",
+        "Analytics",
+        "My Chats",
+        "Others' Chats",
+        "More",
+        "More",
+        "More",
+        "More",
+        "More",
+        "More",
+        "More",
+        "More",
+        "More",
+        "UD\ntest1@ampcome.com",
+        "Create Agent",
+        "All Categories",
+        "All Status",
+        "View Agent"
+      ],
+      "links": [
+        {
+          "text": "assistents.ai",
+          "href": "https://internal-workflow.assistents.ai/?agentId=26dc79ac-422a-4486-9492-29bf2daa6a99"
+        },
+        {
+          "text": "New Chat",
+          "href": "https://internal-workflow.assistents.ai/?agentId=26dc79ac-422a-4486-9492-29bf2daa6a99"
+        },
+        {
+          "text": "Dashboard",
+          "href": "https://internal-workflow.assistents.ai/dashboard"
+        },
+        {
+          "text": "The Leela Royal Arrival Intelligence Agent",
+          "href": "https://internal-workflow.assistents.ai/agents/26dc79ac-422a-4486-9492-29bf2daa6a99/edit"
+        },
+        {
+          "text": "Manage Agents",
+          "href": "https://internal-workflow.assistents.ai/agents"
+        },
+        {
+          "text": "Agent Runs",
+          "href": "https://internal-workflow.assistents.ai/agents/runs"
+        },
+        {
+          "text": "Manage Prompts",
+          "href": "https://internal-workflow.assistents.ai/agents/prompts"
+        },
+        {
+          "text": "Rules",
+          "href": "https://internal-workflow.assistents.ai/rules"
+        },
+        {
+          "text": "All Workflows",
+          "href": "https://internal-workflow.assistents.ai/workflow"
+        },
+        {
+          "text": "Workflow Runs",
+          "href": "https://internal-workflow.assistents.ai/workflow/runs"
+        },
+        {
+          "text": "Tasks",
+          "href": "https://internal-workflow.assistents.ai/workflow/tasks"
+        },
+        {
+          "text": "Channels",
+          "href": "https://internal-workflow.assistents.ai/channels"
+        },
+        {
+          "text": "Evaluate Agents",
+          "href": "https://internal-workflow.assistents.ai/evaluateagents"
+        },
+        {
+          "text": "Tables",
+          "href": "https://internal-workflow.assistents.ai/datacenter/tables"
+        },
+        {
+          "text": "SQL Editor",
+          "href": "https://internal-workflow.assistents.ai/datacenter/sql-editor"
+        },
+        {
+          "text": "Data Sources",
+          "href": "https://internal-workflow.assistents.ai/datacenter/datasources"
+        },
+        {
+          "text": "Documents",
+          "href": "https://internal-workflow.assistents.ai/knowledgebase/documents"
+        },
+        {
+          "text": "Templates",
+          "href": "https://internal-workflow.assistents.ai/knowledgebase/templates"
+        },
+        {
+          "text": "Datasets",
+          "href": "https://internal-workflow.assistents.ai/analytics/datasets"
+        },
+        {
+          "text": "Charts",
+          "href": "https://internal-workflow.assistents.ai/analytics/charts"
+        },
+        {
+          "text": "Dashboards",
+          "href": "https://internal-workflow.assistents.ai/analytics/dashboards"
+        },
+        {
+          "text": "Today’s VIP Arrivals and Service Risks",
+          "href": "https://internal-workflow.assistents.ai/chat/00508bd6-cac6-4bc9-8315-ffa1c8c783d9?agentId=26dc79ac-422a-4486-9492-29bf2daa6a99"
+        },
+        {
+          "text": "Executive Arrival-Readiness Brief for the General Manager",
+          "href": "https://internal-workflow.assistents.ai/chat/511732d1-8196-425b-8101-7d79027ede7d?agentId=26dc79ac-422a-4486-9492-29bf2daa6a99"
+        },
+        {
+          "text": "Weekly Summary of Allergy Complaints and VIP Escalations for Arrivals",
+          "href": "https://internal-workflow.assistents.ai/chat/80d0c8a0-fd82-4472-b6b4-bfff3ffcc9f3?agentId=26dc79ac-422a-4486-9492-29bf2daa6a99"
+        },
+        {
+          "text": "Identifying High-Value Guests at Risk of Not Returning",
+          "href": "https://internal-workflow.assistents.ai/chat/b6c227a2-12c1-4d9f-85c5-6f5202649b7e?agentId=26dc79ac-422a-4486-9492-29bf2daa6a99"
+        },
+        {
+          "text": "Guest Upgrade Consideration Recommendations",
+          "href": "https://internal-workflow.assistents.ai/chat/a2df5d5b-ad95-4697-80a3-f5f2c482d8d6?agentId=26dc79ac-422a-4486-9492-29bf2daa6a99"
+        },
+        {
+          "text": "Today’s VIP Arrivals and Service Risks",
+          "href": "https://internal-workflow.assistents.ai/chat/991da702-cec3-456c-909e-cc6589c7d1be?agentId=26dc79ac-422a-4486-9492-29bf2daa6a99"
+        },
+        {
+          "text": "Identify High-Value Guests at Risk of Not Returning",
+          "href": "https://internal-workflow.assistents.ai/chat/634198e8-183c-41d9-899d-f9f667b2d1bc?agentId=26dc79ac-422a-4486-9492-29bf2daa6a99"
+        },
+        {
+          "text": "Executive Arrival-Readiness Brief for the General Manager",
+          "href": "https://internal-workflow.assistents.ai/chat/01fdd7ee-c39f-41d9-ac77-74689991637b?agentId=26dc79ac-422a-4486-9492-29bf2daa6a99"
+        },
+        {
+          "text": "Today’s VIP Arrivals and Service Risks",
+          "href": "https://internal-workflow.assistents.ai/chat/efc3430e-5d29-4fa7-be51-4be87babfbda?agentId=26dc79ac-422a-4486-9492-29bf2daa6a99"
+        }
+      ],
+      "inputs": [
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "",
+          "placeholder": "Search agents...",
+          "aria": ""
+        }
+      ],
+      "visibleText": [
+        "assistents.ai\nWhiteGlove AI\nNew Chat\nDashboard\nAgents\nThe Leela Royal Arrival Intelligence Agent\nManage Agents\nAgent Runs\nManage Prompts\nRules\nWorkflows\nAll Workflows\nWorkflow Runs\nTasks\nChannels\nEvaluate Agents\nData Center\nTables\nSQL Editor\nData Sources\nKnowledge Base\nDocuments\nTemplates\nAnalytics\nDatasets\nCharts\nDashboards\nMy Chats\nOthers' Chats\nToday\nToday’s VIP Arrivals and Service Risks\nMore\nYesterday\nExecutive Arrival-Readiness Brief for the General Manager\nMore\nWeekly Summary of Allergy Complaints and VIP Escalations for Arrivals\nMore\nIdentifying High-Value Guests at Risk of Not Returning\nMore\nGuest Upgrade Consideration Recommendations\nMore\nToday’s VIP Arrivals and Service Risks\nMore\nIdentify High-Value Guests at Risk of Not Returning\nMore\nExecutive Arrival-Readiness Brief for the General Manager\nMore\nToday’s VIP Arrivals and Service Risks\nMore\nYou have reached the end of your chat history.\nUD\ntest1@ampcome.com\nAgents\n\nManage and discover AI agents for your conversations\n\nCreate Agent\nAll Categories\nAll Status\nTL\nThe Leela Royal Arrival Intelligence Agent\nAn executive-grade hospitality intelligence agent for The Leela Palace demo. It analyzes synthetic PMS, loyalty, bookings, guest preferences, feedback, service requests, revenue transactions, and hotel knowledge-base documents to identify VIP arrivals, service risks, upgrade opportunities, pre-arrival personalization needs, and human-approved next-best actions. The agent speaks in a warm, discreet luxury hospitality tone and helps General Managers, Front Office, Guest Relations, Revenue, F&B, Spa, and Concierge teams prepare exceptional arrivals without replacing the human service experience.\nPrivate\nStream\nFunc\nView Agent\n\nShowing 1 of 1 accessible agent",
+        "assistents.ai\nWhiteGlove AI\nNew Chat\nDashboard\nAgents\nThe Leela Royal Arrival Intelligence Agent\nManage Agents\nAgent Runs\nManage Prompts\nRules\nWorkflows\nAll Workflows\nWorkflow Runs\nTasks\nChannels\nEvaluate Agents\nData Center\nTables\nSQL Editor\nData Sources\nKnowledge Base\nDocuments\nTemplates\nAnalytics\nDatasets\nCharts\nDashboards\nMy Chats\nOthers' Chats\nToday\nToday’s VIP Arrivals and Service Risks\nMore\nYesterday\nExecutive Arrival-Readiness Brief for the General Manager\nMore\nWeekly Summary of Allergy Complaints and VIP Escalations for Arrivals\nMore\nIdentifying High-Value Guests at Risk of Not Returning\nMore\nGuest Upgrade Consideration Recommendations\nMore\nToday’s VIP Arrivals and Service Risks\nMore\nIdentify High-Value Guests at Risk of Not Returning\nMore\nExecutive Arrival-Readiness Brief for the General Manager\nMore\nToday’s VIP Arrivals and Service Risks\nMore\nYou have reached the end of your chat history.\nUD\ntest1@ampcome.com",
+        "assistents.ai\nWhiteGlove AI",
+        "assistents.ai",
+        "WhiteGlove AI",
+        "New Chat\nDashboard\nAgents\nThe Leela Royal Arrival Intelligence Agent\nManage Agents\nAgent Runs\nManage Prompts\nRules\nWorkflows\nAll Workflows\nWorkflow Runs\nTasks\nChannels\nEvaluate Agents\nData Center\nTables\nSQL Editor\nData Sources\nKnowledge Base\nDocuments\nTemplates\nAnalytics\nDatasets\nCharts\nDashboards\nMy Chats\nOthers' Chats\nToday\nToday’s VIP Arrivals and Service Risks\nMore\nYesterday\nExecutive Arrival-Readiness Brief for the General Manager\nMore\nWeekly Summary of Allergy Complaints and VIP Escalations for Arrivals\nMore\nIdentifying High-Value Guests at Risk of Not Returning\nMore\nGuest Upgrade Consideration Recommendations\nMore\nToday’s VIP Arrivals and Service Risks\nMore\nIdentify High-Value Guests at Risk of Not Returning\nMore\nExecutive Arrival-Readiness Brief for the General Manager\nMore\nToday’s VIP Arrivals and Service Risks\nMore\nYou have reached the end of your chat history.",
+        "New Chat\nDashboard\nAgents\nThe Leela Royal Arrival Intelligence Agent\nManage Agents\nAgent Runs\nManage Prompts\nRules\nWorkflows\nAll Workflows\nWorkflow Runs\nTasks\nChannels\nEvaluate Agents\nData Center\nTables\nSQL Editor\nData Sources\nKnowledge Base\nDocuments\nTemplates\nAnalytics\nDatasets\nCharts\nDashboards",
+        "New Chat",
+        "Dashboard",
+        "Agents\nThe Leela Royal Arrival Intelligence Agent\nManage Agents\nAgent Runs\nManage Prompts",
+        "Agents",
+        "The Leela Royal Arrival Intelligence Agent\nManage Agents\nAgent Runs\nManage Prompts",
+        "The Leela Royal Arrival Intelligence Agent",
+        "Manage Agents\nAgent Runs\nManage Prompts",
+        "Manage Agents",
+        "Agent Runs",
+        "Manage Prompts",
+        "Rules",
+        "Workflows\nAll Workflows\nWorkflow Runs\nTasks",
+        "Workflows",
+        "All Workflows\nWorkflow Runs\nTasks",
+        "All Workflows",
+        "Workflow Runs",
+        "Tasks",
+        "Channels",
+        "Evaluate Agents",
+        "Data Center\nTables\nSQL Editor\nData Sources",
+        "Data Center",
+        "Tables\nSQL Editor\nData Sources",
+        "Tables",
+        "SQL Editor",
+        "Data Sources",
+        "Knowledge Base\nDocuments\nTemplates",
+        "Knowledge Base",
+        "Documents\nTemplates",
+        "Documents",
+        "Templates",
+        "Analytics\nDatasets\nCharts\nDashboards",
+        "Analytics",
+        "Datasets\nCharts\nDashboards",
+        "Datasets",
+        "Charts",
+        "Dashboards",
+        "My Chats\nOthers' Chats\nToday\nToday’s VIP Arrivals and Service Risks\nMore\nYesterday\nExecutive Arrival-Readiness Brief for the General Manager\nMore\nWeekly Summary of Allergy Complaints and VIP Escalations for Arrivals\nMore\nIdentifying High-Value Guests at Risk of Not Returning\nMore\nGuest Upgrade Consideration Recommendations\nMore\nToday’s VIP Arrivals and Service Risks\nMore\nIdentify High-Value Guests at Risk of Not Returning\nMore\nExecutive Arrival-Readiness Brief for the General Manager\nMore\nToday’s VIP Arrivals and Service Risks\nMore\nYou have reached the end of your chat history.",
+        "My Chats\nOthers' Chats",
+        "My Chats",
+        "Others' Chats",
+        "Today\nToday’s VIP Arrivals and Service Risks\nMore\nYesterday\nExecutive Arrival-Readiness Brief for the General Manager\nMore\nWeekly Summary of Allergy Complaints and VIP Escalations for Arrivals\nMore\nIdentifying High-Value Guests at Risk of Not Returning\nMore\nGuest Upgrade Consideration Recommendations\nMore\nToday’s VIP Arrivals and Service Risks\nMore\nIdentify High-Value Guests at Risk of Not Returning\nMore\nExecutive Arrival-Readiness Brief for the General Manager\nMore\nToday’s VIP Arrivals and Service Risks\nMore\nYou have reached the end of your chat history.",
+        "Today\nToday’s VIP Arrivals and Service Risks\nMore\nYesterday\nExecutive Arrival-Readiness Brief for the General Manager\nMore\nWeekly Summary of Allergy Complaints and VIP Escalations for Arrivals\nMore\nIdentifying High-Value Guests at Risk of Not Returning\nMore\nGuest Upgrade Consideration Recommendations\nMore\nToday’s VIP Arrivals and Service Risks\nMore\nIdentify High-Value Guests at Risk of Not Returning\nMore\nExecutive Arrival-Readiness Brief for the General Manager\nMore\nToday’s VIP Arrivals and Service Risks\nMore",
+        "Today\nToday’s VIP Arrivals and Service Risks\nMore",
+        "Today",
+        "Today’s VIP Arrivals and Service Risks\nMore",
+        "Today’s VIP Arrivals and Service Risks",
+        "More",
+        "Yesterday\nExecutive Arrival-Readiness Brief for the General Manager\nMore\nWeekly Summary of Allergy Complaints and VIP Escalations for Arrivals\nMore\nIdentifying High-Value Guests at Risk of Not Returning\nMore\nGuest Upgrade Consideration Recommendations\nMore\nToday’s VIP Arrivals and Service Risks\nMore\nIdentify High-Value Guests at Risk of Not Returning\nMore\nExecutive Arrival-Readiness Brief for the General Manager\nMore\nToday’s VIP Arrivals and Service Risks\nMore",
+        "Yesterday",
+        "Executive Arrival-Readiness Brief for the General Manager\nMore",
+        "Executive Arrival-Readiness Brief for the General Manager",
+        "Weekly Summary of Allergy Complaints and VIP Escalations for Arrivals\nMore",
+        "Weekly Summary of Allergy Complaints and VIP Escalations for Arrivals",
+        "Identifying High-Value Guests at Risk of Not Returning\nMore",
+        "Identifying High-Value Guests at Risk of Not Returning",
+        "Guest Upgrade Consideration Recommendations\nMore",
+        "Guest Upgrade Consideration Recommendations",
+        "Identify High-Value Guests at Risk of Not Returning\nMore",
+        "Identify High-Value Guests at Risk of Not Returning",
+        "You have reached the end of your chat history.",
+        "UD\ntest1@ampcome.com",
+        "UD",
+        "test1@ampcome.com",
+        "Agents\n\nManage and discover AI agents for your conversations\n\nCreate Agent\nAll Categories\nAll Status\nTL\nThe Leela Royal Arrival Intelligence Agent\nAn executive-grade hospitality intelligence agent for The Leela Palace demo. It analyzes synthetic PMS, loyalty, bookings, guest preferences, feedback, service requests, revenue transactions, and hotel knowledge-base documents to identify VIP arrivals, service risks, upgrade opportunities, pre-arrival personalization needs, and human-approved next-best actions. The agent speaks in a warm, discreet luxury hospitality tone and helps General Managers, Front Office, Guest Relations, Revenue, F&B, Spa, and Concierge teams prepare exceptional arrivals without replacing the human service experience.\nPrivate\nStream\nFunc\nView Agent\n\nShowing 1 of 1 accessible agent",
+        "Agents\n\nManage and discover AI agents for your conversations\n\nCreate Agent",
+        "Agents\n\nManage and discover AI agents for your conversations",
+        "Manage and discover AI agents for your conversations",
+        "Create Agent",
+        "All Categories\nAll Status",
+        "All Categories",
+        "All Status",
+        "TL\nThe Leela Royal Arrival Intelligence Agent\nAn executive-grade hospitality intelligence agent for The Leela Palace demo. It analyzes synthetic PMS, loyalty, bookings, guest preferences, feedback, service requests, revenue transactions, and hotel knowledge-base documents to identify VIP arrivals, service risks, upgrade opportunities, pre-arrival personalization needs, and human-approved next-best actions. The agent speaks in a warm, discreet luxury hospitality tone and helps General Managers, Front Office, Guest Relations, Revenue, F&B, Spa, and Concierge teams prepare exceptional arrivals without replacing the human service experience.\nPrivate\nStream\nFunc\nView Agent",
+        "TL\nThe Leela Royal Arrival Intelligence Agent\nAn executive-grade hospitality intelligence agent for The Leela Palace demo. It analyzes synthetic PMS, loyalty, bookings, guest preferences, feedback, service requests, revenue transactions, and hotel knowledge-base documents to identify VIP arrivals, service risks, upgrade opportunities, pre-arrival personalization needs, and human-approved next-best actions. The agent speaks in a warm, discreet luxury hospitality tone and helps General Managers, Front Office, Guest Relations, Revenue, F&B, Spa, and Concierge teams prepare exceptional arrivals without replacing the human service experience.",
+        "TL",
+        "The Leela Royal Arrival Intelligence Agent\nAn executive-grade hospitality intelligence agent for The Leela Palace demo. It analyzes synthetic PMS, loyalty, bookings, guest preferences, feedback, service requests, revenue transactions, and hotel knowledge-base documents to identify VIP arrivals, service risks, upgrade opportunities, pre-arrival personalization needs, and human-approved next-best actions. The agent speaks in a warm, discreet luxury hospitality tone and helps General Managers, Front Office, Guest Relations, Revenue, F&B, Spa, and Concierge teams prepare exceptional arrivals without replacing the human service experience.",
+        "An executive-grade hospitality intelligence agent for The Leela Palace demo. It analyzes synthetic PMS, loyalty, bookings, guest preferences, feedback, service requests, revenue transactions, and hotel knowledge-base documents to identify VIP arrivals, service risks, upgrade opportunities, pre-arrival personalization needs, and human-approved next-best actions. The agent speaks in a warm, discreet luxury hospitality tone and helps General Managers, Front Office, Guest Relations, Revenue, F&B, Spa, and Concierge teams prepare exceptional arrivals without replacing the human service experience.",
+        "Private\nStream\nFunc",
+        "Private",
+        "Stream",
+        "Func",
+        "View Agent",
+        "Showing 1 of 1 accessible agent"
+      ],
+      "screenshot": "D:\\ampcome\\leela_palace_demo\\metadata\\assistents-ai\\manage-prompts.png"
+    },
+    {
+      "name": "agent-runs",
+      "url": "https://internal-workflow.assistents.ai/agents/runs",
+      "title": "assistents.ai | AI Agents and Assistants to Automate Tools and Grow Business",
+      "headings": [
+        "Agent Runs"
+      ],
+      "buttons": [
+        "WhiteGlove AI",
+        "Agents",
+        "Workflows",
+        "Data Center",
+        "Knowledge Base",
+        "Analytics",
+        "My Chats",
+        "Others' Chats",
+        "More",
+        "More",
+        "More",
+        "More",
+        "More",
+        "More",
+        "More",
+        "More",
+        "More",
+        "UD",
+        "Select an agent"
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://internal-workflow.assistents.ai/?agentId=26dc79ac-422a-4486-9492-29bf2daa6a99"
+        },
+        {
+          "text": "New Chat",
+          "href": "https://internal-workflow.assistents.ai/?agentId=26dc79ac-422a-4486-9492-29bf2daa6a99"
+        },
+        {
+          "text": "Dashboard",
+          "href": "https://internal-workflow.assistents.ai/dashboard"
+        },
+        {
+          "text": "Rules",
+          "href": "https://internal-workflow.assistents.ai/rules"
+        },
+        {
+          "text": "Channels",
+          "href": "https://internal-workflow.assistents.ai/channels"
+        },
+        {
+          "text": "Evaluate Agents",
+          "href": "https://internal-workflow.assistents.ai/evaluateagents"
+        },
+        {
+          "text": "Today’s VIP Arrivals and Service Risks",
+          "href": "https://internal-workflow.assistents.ai/chat/00508bd6-cac6-4bc9-8315-ffa1c8c783d9?agentId=26dc79ac-422a-4486-9492-29bf2daa6a99"
+        },
+        {
+          "text": "Executive Arrival-Readiness Brief for the General Manager",
+          "href": "https://internal-workflow.assistents.ai/chat/511732d1-8196-425b-8101-7d79027ede7d?agentId=26dc79ac-422a-4486-9492-29bf2daa6a99"
+        },
+        {
+          "text": "Weekly Summary of Allergy Complaints and VIP Escalations for Arrivals",
+          "href": "https://internal-workflow.assistents.ai/chat/80d0c8a0-fd82-4472-b6b4-bfff3ffcc9f3?agentId=26dc79ac-422a-4486-9492-29bf2daa6a99"
+        },
+        {
+          "text": "Identifying High-Value Guests at Risk of Not Returning",
+          "href": "https://internal-workflow.assistents.ai/chat/b6c227a2-12c1-4d9f-85c5-6f5202649b7e?agentId=26dc79ac-422a-4486-9492-29bf2daa6a99"
+        },
+        {
+          "text": "Guest Upgrade Consideration Recommendations",
+          "href": "https://internal-workflow.assistents.ai/chat/a2df5d5b-ad95-4697-80a3-f5f2c482d8d6?agentId=26dc79ac-422a-4486-9492-29bf2daa6a99"
+        },
+        {
+          "text": "Today’s VIP Arrivals and Service Risks",
+          "href": "https://internal-workflow.assistents.ai/chat/991da702-cec3-456c-909e-cc6589c7d1be?agentId=26dc79ac-422a-4486-9492-29bf2daa6a99"
+        },
+        {
+          "text": "Identify High-Value Guests at Risk of Not Returning",
+          "href": "https://internal-workflow.assistents.ai/chat/634198e8-183c-41d9-899d-f9f667b2d1bc?agentId=26dc79ac-422a-4486-9492-29bf2daa6a99"
+        },
+        {
+          "text": "Executive Arrival-Readiness Brief for the General Manager",
+          "href": "https://internal-workflow.assistents.ai/chat/01fdd7ee-c39f-41d9-ac77-74689991637b?agentId=26dc79ac-422a-4486-9492-29bf2daa6a99"
+        },
+        {
+          "text": "Today’s VIP Arrivals and Service Risks",
+          "href": "https://internal-workflow.assistents.ai/chat/efc3430e-5d29-4fa7-be51-4be87babfbda?agentId=26dc79ac-422a-4486-9492-29bf2daa6a99"
+        }
+      ],
+      "inputs": [],
+      "visibleText": [
+        "New Chat\nDashboard\nAgents\nRules\nWorkflows\nChannels\nEvaluate Agents\nData Center\nKnowledge Base\nAnalytics\nUD\nAgent Runs\n\nView and monitor your agent execution history\n\nSelect an agent\n\nNo agents available",
+        "New Chat\nDashboard\nAgents\nRules\nWorkflows\nChannels\nEvaluate Agents\nData Center\nKnowledge Base\nAnalytics\nUD",
+        "assistents.ai",
+        "WhiteGlove AI",
+        "New Chat\nDashboard\nAgents\nRules\nWorkflows\nChannels\nEvaluate Agents\nData Center\nKnowledge Base\nAnalytics",
+        "New Chat",
+        "Dashboard",
+        "Agents",
+        "Rules",
+        "Workflows",
+        "Channels",
+        "Evaluate Agents",
+        "Data Center",
+        "Knowledge Base",
+        "Analytics",
+        "My ChatsOthers' ChatsTodayToday’s VIP Arrivals and Service RisksMoreYesterdayExecutive Arrival-Readiness Brief for the General ManagerMoreWeekly Summary of Allergy Complaints and VIP Escalations for ArrivalsMoreIdentifying High-Value Guests at Risk of Not ReturningMoreGuest Upgrade Consideration RecommendationsMoreToday’s VIP Arrivals and Service RisksMoreIdentify High-Value Guests at Risk of Not ReturningMoreExecutive Arrival-Readiness Brief for the General ManagerMoreToday’s VIP Arrivals and Service RisksMoreYou have reached the end of your chat history.",
+        "My ChatsOthers' Chats",
+        "My Chats",
+        "Others' Chats",
+        "TodayToday’s VIP Arrivals and Service RisksMoreYesterdayExecutive Arrival-Readiness Brief for the General ManagerMoreWeekly Summary of Allergy Complaints and VIP Escalations for ArrivalsMoreIdentifying High-Value Guests at Risk of Not ReturningMoreGuest Upgrade Consideration RecommendationsMoreToday’s VIP Arrivals and Service RisksMoreIdentify High-Value Guests at Risk of Not ReturningMoreExecutive Arrival-Readiness Brief for the General ManagerMoreToday’s VIP Arrivals and Service RisksMoreYou have reached the end of your chat history.",
+        "TodayToday’s VIP Arrivals and Service RisksMoreYesterdayExecutive Arrival-Readiness Brief for the General ManagerMoreWeekly Summary of Allergy Complaints and VIP Escalations for ArrivalsMoreIdentifying High-Value Guests at Risk of Not ReturningMoreGuest Upgrade Consideration RecommendationsMoreToday’s VIP Arrivals and Service RisksMoreIdentify High-Value Guests at Risk of Not ReturningMoreExecutive Arrival-Readiness Brief for the General ManagerMoreToday’s VIP Arrivals and Service RisksMore",
+        "TodayToday’s VIP Arrivals and Service RisksMore",
+        "Today",
+        "Today’s VIP Arrivals and Service RisksMore",
+        "Today’s VIP Arrivals and Service Risks",
+        "More",
+        "YesterdayExecutive Arrival-Readiness Brief for the General ManagerMoreWeekly Summary of Allergy Complaints and VIP Escalations for ArrivalsMoreIdentifying High-Value Guests at Risk of Not ReturningMoreGuest Upgrade Consideration RecommendationsMoreToday’s VIP Arrivals and Service RisksMoreIdentify High-Value Guests at Risk of Not ReturningMoreExecutive Arrival-Readiness Brief for the General ManagerMoreToday’s VIP Arrivals and Service RisksMore",
+        "Yesterday",
+        "Executive Arrival-Readiness Brief for the General ManagerMore",
+        "Executive Arrival-Readiness Brief for the General Manager",
+        "Weekly Summary of Allergy Complaints and VIP Escalations for ArrivalsMore",
+        "Weekly Summary of Allergy Complaints and VIP Escalations for Arrivals",
+        "Identifying High-Value Guests at Risk of Not ReturningMore",
+        "Identifying High-Value Guests at Risk of Not Returning",
+        "Guest Upgrade Consideration RecommendationsMore",
+        "Guest Upgrade Consideration Recommendations",
+        "Identify High-Value Guests at Risk of Not ReturningMore",
+        "Identify High-Value Guests at Risk of Not Returning",
+        "You have reached the end of your chat history.",
+        "UD",
+        "test1@ampcome.com",
+        "Agent Runs\n\nView and monitor your agent execution history\n\nSelect an agent\n\nNo agents available",
+        "Agent Runs\n\nView and monitor your agent execution history",
+        "Agent Runs",
+        "View and monitor your agent execution history",
+        "Select an agent\n\nNo agents available",
+        "Select an agent",
+        "No agents available"
+      ],
+      "screenshot": "D:\\ampcome\\leela_palace_demo\\metadata\\assistents-ai\\agent-runs.png"
+    }
+  ],
+  "apiCalls": [
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/workflow",
+      "resourceType": "document"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/workflow/_next/static/css/d5e40c0c11d8eccc.css",
+      "resourceType": "stylesheet"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/workflow/_next/static/css/7a9ed8c9bac0d244.css",
+      "resourceType": "stylesheet"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/workflow/_next/static/media/bb3ef058b751a6ad-s.p.woff2",
+      "resourceType": "font"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/workflow/_next/static/media/636a5ac981f94f8b-s.p.woff2",
+      "resourceType": "font"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/workflow/_next/static/chunks/webpack-4837d5910266cdbf.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/workflow/_next/static/chunks/971c9384-00c46f532e826e74.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/workflow/_next/static/chunks/main-app-1e0d1f0108aa2aed.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/workflow/_next/static/chunks/51384-45ced7c72fb1c8ee.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/workflow/_next/static/chunks/5241-f1cfd042060491f2.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/workflow/_next/static/chunks/76905-cf5a90363d37f37a.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/workflow/_next/static/chunks/17844-5a891b04607c8a53.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/workflow/_next/static/chunks/37546-3e39e5ed472b4a3e.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/workflow/_next/static/chunks/37150-d5cd5b17c8c84364.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/workflow/_next/static/chunks/99416-9b77e73b54b1147f.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/workflow/_next/static/chunks/app/(app)/layout-94c4c0679ece63d8.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/workflow/_next/static/chunks/11762-73bf4311345d2179.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/workflow/_next/static/chunks/70485-0d0aa8a4284e9266.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/workflow/_next/static/chunks/70079-c2d001a51d3b255f.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/workflow/_next/static/chunks/app/layout-c043ca3b55fb119e.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/workflow/_next/static/chunks/87071-db165a7bce90f384.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/workflow/_next/static/chunks/23991-0bf8cc45afa37d03.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/workflow/_next/static/chunks/88607-da38af43d7a22d57.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/workflow/_next/static/chunks/27556-f6d27e197a5706d0.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/workflow/_next/static/chunks/app/(app)/page-27517b1c26713207.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/login",
+      "resourceType": "document"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/workflow/_next/static/chunks/80763-f65ad0dc6a2b0b6c.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/css/2967af23f40f8f16.css",
+      "resourceType": "stylesheet"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/css/5db232b9517c0594.css",
+      "resourceType": "stylesheet"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/media/bb3ef058b751a6ad-s.p.woff2",
+      "resourceType": "font"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/media/636a5ac981f94f8b-s.p.woff2",
+      "resourceType": "font"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/main-app-7ce32f809c379c9b.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/app/(auth)/layout-1408983bbfb26af5.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/webpack-291277fb2b4307be.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/28227-b82de77b47581f2c.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/83281-51c80bf134f0b7ad.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/32234-eb6e49c3e2288bf5.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/32883-776fabe9d089f7f7.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/5c264d05-a250a9266ecafff0.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/25507-215a98f9362f78f4.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/64436-db065fddd6fe623c.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/14902-5c32a8518e2d6324.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/70236-5a4bbc4369edf34c.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/app/(auth)/login/page-7d37cf1fc99abb3e.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/66855-a1f8a15315998a27.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/21872-dc2ba6b0dbdf84d0.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/app/layout-db823cb353be5c4f.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/95672-1a3983de1780d844.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/forgot-password?_rsc=tvjct",
+      "resourceType": "fetch"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/register?_rsc=tvjct",
+      "resourceType": "fetch"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/app/(auth)/forgot-password/page-dc102ba62e77f4fa.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/app/(auth)/register/page-dd32444d5d99223d.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/?_rsc=970e3",
+      "resourceType": "fetch"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/?_rsc=970e3",
+      "resourceType": "fetch"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/8a39eaba-91932ac15cf001de.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/14a8416c-dc066d0aaa108496.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/fe3fafec-4cdd9366eb3298c4.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/f18b6c45-e8ba4667c1988bf0.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/6328acee-eb63a4e5d33ee174.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/f008833e-495355e8a4ca407e.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/4540f49a-5063b57ed4f0c50a.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/088ba555-d746e297159851a0.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/22115-0ae3dd8a363958e5.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/67575-e74986fdaf510c86.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/81935-258d0022c45b7d18.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/7a431477-5268a9ac6f935ed2.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/db534642-35e0b6781449a67b.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/75ed273f-abce5b3e691b834b.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/0482e09f-018b8bba293efc4a.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/34641950-c1bcaa73ef51751e.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/73451-ba8a4f1a35a210fb.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/88325-7a9f9050f8b77d0c.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/76710-8924d1af7f562edd.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/26592-780215c85c93fedc.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/35726-0b05b7ecb59227b5.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/35435-b85ed793f5059854.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/91882-ece023e9b050ec06.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/5da11c83-e798221a3967deb9.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/38373-af9fdf3ff17478b8.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/94156-efc025d39bad6465.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/16289-cd49191a5a41e87b.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/80310-021427ee2d348540.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/13500-ebfd6c50fab27b15.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/52003-4e5afbd55c8c21ca.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/67832-977bdf0d6306df27.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/59989-ad4437c738624c5b.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/92029-8aff5b9ff8c12af9.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/95660-e70e52ac1a78c55d.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/67483-a9bd3b6e3a9218e2.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/51918-23ed44aa87da346d.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/14827-99e6f0b742a976ed.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/74728-5871ec4481b26bc0.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/36269-c7a7c316ddc9d009.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/517-0df879e79929aede.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/98748-b14bc8cbd4969b8c.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/app/(chat)/layout-f7b25182aa16b05a.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/app/(chat)/page-5f8a2f0d5d1eac45.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/98909-48bbbd9a88de59cb.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/991-cc8f132cf802f455.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/2973-e46043b17d8f69c0.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/c213cb58-15c0a35d11778424.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/70293-308a4a0b2b974143.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/82268-d1f0679dac5c5ec3.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/61379-8b7eae88d6426207.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/css/a45407fef0b794c3.css",
+      "resourceType": "stylesheet"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/css/e50d696ec4ad942c.css",
+      "resourceType": "stylesheet"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/api/organizations",
+      "resourceType": "fetch"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/image?url=https%3A%2F%2Favatar.vercel.sh%2Ftest1%40ampcome.com&w=32&q=75",
+      "resourceType": "image"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/?_rsc=cvsii",
+      "resourceType": "fetch"
+    },
+    {
+      "status": 200,
+      "method": "POST",
+      "url": "https://internal-workflow.assistents.ai/",
+      "resourceType": "fetch"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/api/organizations/bb5dd90c-f6aa-45a1-9db9-4b9f21bdc6d4/workspaces",
+      "resourceType": "fetch"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/image?url=%2Fimages%2Flogo.png&w=32&q=75",
+      "resourceType": "image"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/image?url=https%3A%2F%2Frdfedi8v5tf6ukcp.public.blob.vercel-storage.com%2Fuploads%2F965219c0_6c5b_43e6_b886_7d804eae4720%2FBusinessman_SVG_-_Secret_Agent_Handsome_Groom_Corporate_Boss_Office_Exec_Male_Model_Printable_Cut_File_Instant_Download_Commercial_Use_1782580160069.jpg&w=32&q=75",
+      "resourceType": "image"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/api/agents?workspaceId=1c3d84cd-f6bc-4fc5-a0ed-80b954bf2af1",
+      "resourceType": "fetch"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/css/149347e3f012ba0e.css",
+      "resourceType": "stylesheet"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/api/history?limit=20&workspaceId=1c3d84cd-f6bc-4fc5-a0ed-80b954bf2af1",
+      "resourceType": "fetch"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/dashboard?_rsc=cvsii",
+      "resourceType": "fetch"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/rules?_rsc=cvsii",
+      "resourceType": "fetch"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/channels?_rsc=cvsii",
+      "resourceType": "fetch"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/evaluateagents?_rsc=cvsii",
+      "resourceType": "fetch"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/datacenter/tables?_rsc=cvsii",
+      "resourceType": "fetch"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/agents?_rsc=cvsii",
+      "resourceType": "fetch"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/6e810e1c-f63895753ea194cb.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/datacenter/sql-editor?_rsc=cvsii",
+      "resourceType": "fetch"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/52706-80599085dff77caa.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/4227-7296277f8c42ffc1.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/49946-60e9021d5c29b3d4.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/app/(chat)/dashboard/page-86dd4ae138b79f36.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/56967-7db3f6474fb8ba82.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/35829-e54f41b930a95cfe.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/app/(chat)/channels/page-56022fc25a33290a.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/datacenter/datasources?_rsc=cvsii",
+      "resourceType": "fetch"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/knowledgebase/documents?_rsc=cvsii",
+      "resourceType": "fetch"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/knowledgebase/templates?_rsc=cvsii",
+      "resourceType": "fetch"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/43804-b69a22ca171456da.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/4540-69a0693447aa839f.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/96634-694dbea5af08fa18.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/app/(chat)/datacenter/tables/page-489221da9029796d.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/16291-b183afa8d27fa41e.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/analytics/datasets?_rsc=cvsii",
+      "resourceType": "fetch"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/analytics/charts?_rsc=cvsii",
+      "resourceType": "fetch"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/app/(chat)/rules/page-6490b792ecd9734b.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/app/(chat)/agents/page-dac18935a1be1d78.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/59221-58d61e6c6c99e5d5.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/analytics/dashboards?_rsc=cvsii",
+      "resourceType": "fetch"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/27498-a8e84206b09f4c0c.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/app/(chat)/datacenter/sql-editor/page-5e8318520bf87602.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/app/(chat)/knowledgebase/documents/page-80fcaaf409c26d8c.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/agents/26dc79ac-422a-4486-9492-29bf2daa6a99/edit?_rsc=cvsii",
+      "resourceType": "fetch"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/agents/runs?_rsc=cvsii",
+      "resourceType": "fetch"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/76442-51540093ac0c8504.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/app/(chat)/datacenter/datasources/page-a395637589de76f8.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/app/(chat)/knowledgebase/templates/page-944eba60142996bd.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/16855-54b063e51dcd8f73.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/app/(chat)/analytics/datasets/page-c5c9a6f823e189b6.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/8868-47ccd353fd5e0466.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/agents/prompts?_rsc=cvsii",
+      "resourceType": "fetch"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/37506-a607ac165109f285.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/css/b58ea0fc6c39c764.css",
+      "resourceType": "stylesheet"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/7098-7dd1621c289d9d69.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/58478-afa269071e3255e3.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/f3322cff-f3bd5b6ac975cf29.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/45097-f4e70e9a7a9a09f0.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/app/(chat)/analytics/charts/page-7e7adb3d26a9dd2b.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/agents/26dc79ac-422a-4486-9492-29bf2daa6a99/edit?_rsc=z6x4g",
+      "resourceType": "fetch"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/app/(chat)/analytics/dashboards/page-4e27301368fd726e.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/app/(chat)/agents/runs/page-663958bd89ebc8bb.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/95950-8d12e09f7615a4ec.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/77337-f5543a91a1e1c6e6.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/app/(chat)/agents/prompts/page-ca2844be6d8e7970.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/56691-9ffe78d3d85377eb.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/54777-a82321d3e28bab7a.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/8329-3ef79a282ee94ad0.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/49760-1f075025396da8bd.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/27764-e9b6f53f3a13b1d5.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/3482-233f8e5e6f2b3117.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/app/(chat)/agents/%5Bid%5D/edit/page-1fb484c159d3c67b.js",
+      "resourceType": "script"
+    },
+    {
+      "status": 200,
+      "method": "GET",
+      "url": "https://internal-workflow.assistents.ai/_next/static/chunks/21689-38f401a442fa27eb.js",
+      "resourceType": "script"
+    }
+  ],
+  "storage": {
+    "localStorageKeys": [
+      "accessToken",
+      "input",
+      "refreshToken",
+      "user",
+      "platform-wizard-chat-id",
+      "persist:root"
+    ],
+    "sessionStorageKeys": []
+  }
+}

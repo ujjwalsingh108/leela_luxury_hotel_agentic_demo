@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Leela · Agentic Host Demo</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{--ink:#1a1a1f;--ink2:#3a3a44;--soft:#6b6b76;--gold:#b08d3e;--goldsoft:#f4eede;--line:#e6e1d4;--cream:#fcfbf7;--ok:#1f7a3a;--crit:#b3261e;--card:#fff}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Inter',sans-serif;color:var(--ink);background:var(--cream);font-size:14px}
+  .serif{font-family:'Cormorant Garamond',serif}
+  header{display:flex;justify-content:space-between;align-items:center;padding:16px 28px;border-bottom:1px solid var(--line);background:#fff}
+  .brand{font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:600}.brand .x{color:var(--gold);margin:0 7px}
+  .modepill{font-size:11px;color:var(--soft);border:1px solid var(--line);border-radius:999px;padding:4px 12px}
+  .modepill b{color:var(--gold)}
+  nav{display:flex;gap:4px;padding:14px 28px 0;background:#fff;border-bottom:1px solid var(--line)}
+  nav button{font-family:inherit;font-size:13px;font-weight:600;color:var(--soft);background:none;border:none;border-bottom:2px solid transparent;padding:10px 16px;cursor:pointer}
+  nav button.on{color:var(--gold);border-color:var(--gold)}
+  main{max-width:1080px;margin:0 auto;padding:26px}
+  .view{display:none}.view.on{display:block}
+  /* console */
+  .layout{display:grid;grid-template-columns:240px 1fr 280px;gap:22px}
+  .panel{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px}
+  .eyebrow{font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);font-weight:600;margin-bottom:10px}
+  .gsearch{width:100%;padding:9px 11px;border:1px solid var(--line);border-radius:8px;font-family:inherit;font-size:13px;margin-bottom:10px}
+  .glist{list-style:none}.glist li{padding:9px 10px;border-radius:8px;cursor:pointer;font-size:13px;border:1px solid transparent}
+  .glist li:hover{background:var(--goldsoft)}.glist li.sel{background:var(--goldsoft);border-color:var(--line)}
+  .glist .t{font-weight:600}.glist .s{font-size:11px;color:var(--soft)}
+  .gcard h2{font-family:'Cormorant Garamond',serif;font-size:26px;font-weight:600}
+  .tier{display:inline-block;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);border:1px solid var(--gold);border-radius:999px;padding:2px 9px;margin-left:8px;vertical-align:middle}
+  .brief{background:var(--goldsoft);border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin:14px 0;line-height:1.6;font-size:13.5px}
+  .brief .crit{color:var(--crit);font-weight:600}
+  .facts{display:grid;grid-template-columns:1fr 1fr;gap:8px 18px;margin:10px 0}
+  .facts div{font-size:12.5px;color:var(--ink2)}.facts b{display:block;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--soft);font-weight:600}
+  .acts{display:flex;flex-direction:column;gap:8px;margin-top:8px}
+  .act{display:flex;justify-content:space-between;align-items:center;border:1px solid var(--line);border-radius:9px;padding:10px 13px;font-size:13px;cursor:pointer;background:#fff;text-align:left;font-family:inherit}
+  .act:hover{border-color:var(--gold);background:var(--goldsoft)}
+  .act .dept{font-size:10px;color:var(--soft)}
+  .act.done{opacity:.5;pointer-events:none}.act .go{color:var(--gold);font-weight:600}
+  .tasks{list-style:none}.tasks li{font-size:12px;border-left:2px solid var(--ok);padding:6px 10px;margin-bottom:7px;background:#f7faf7;border-radius:0 6px 6px 0}
+  .tasks .when{font-size:10px;color:var(--soft)}
+  .empty{color:var(--soft);font-size:12.5px;font-style:italic}
+  /* chat */
+  .chatwrap{max-width:520px;margin:0 auto}
+  .chatsel{display:flex;gap:8px;align-items:center;margin-bottom:12px;font-size:13px;color:var(--soft)}
+  .chatsel select{font-family:inherit;padding:6px 10px;border:1px solid var(--line);border-radius:8px}
+  .chat{background:#ece5dd;border:1px solid var(--line);border-radius:14px;padding:16px;height:440px;overflow-y:auto;display:flex;flex-direction:column;gap:9px}
+  .msg{max-width:78%;padding:9px 13px;border-radius:12px;font-size:13px;line-height:1.45}
+  .msg.bot{background:#fff;align-self:flex-start;border-bottom-left-radius:3px}
+  .msg.me{background:#dcf8c6;align-self:flex-end;border-bottom-right-radius:3px}
+  .qr{display:flex;flex-wrap:wrap;gap:7px;margin-top:10px}
+  .qr button{font-family:inherit;font-size:12.5px;border:1px solid var(--gold);color:var(--gold);background:#fff;border-radius:999px;padding:7px 13px;cursor:pointer}
+  .qr button:hover{background:var(--goldsoft)}
+  .note{margin-top:12px;font-size:12.5px;color:var(--ok);background:#f0f7f0;border:1px solid #cfe6cf;border-radius:8px;padding:10px 13px;display:none}
+  .hint{font-size:11.5px;color:var(--soft);font-style:italic;margin-top:14px;text-align:center}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">The Leela <span class="x">·</span> <span style="font-size:14px;color:var(--soft)">Agentic Host</span></div>
+  <div class="modepill">Mode: <b id="modeLabel">DEMO (mock)</b> · synthetic data</div>
+</header>
+<nav>
+  <button class="on" data-v="console">Host Console</button>
+  <button data-v="chat">Guest Pre-Arrival</button>
+</nav>
+
+<main>
+  <!-- HOST CONSOLE -->
+  <section class="view on" id="v-console">
+    <div class="layout">
+      <div class="panel">
+        <div class="eyebrow">Guests · arriving today</div>
+        <input class="gsearch" id="gsearch" placeholder="Search a guest…">
+        <ul class="glist" id="glist"></ul>
+      </div>
+      <div class="panel gcard" id="gcard"><div class="empty">Select a guest to see their 360° brief.</div></div>
+      <div class="panel">
+        <div class="eyebrow">Actions taken</div>
+        <ul class="tasks" id="tasks"><li class="empty" style="border:none;background:none">No actions yet.</li></ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRE-ARRIVAL CHAT -->
+  <section class="view" id="v-chat">
+    <div class="chatwrap">
+      <div class="chatsel">Simulating pre-arrival outreach to:
+        <select id="chatGuest"></select></div>
+      <div class="chat" id="chat"></div>
+      <div class="qr" id="qr"></div>
+      <div class="note" id="note"></div>
+      <div class="hint">The agent captures preferences → updates the guest profile → briefs the Host Console (switch tabs to see it).</div>
+    </div>
+  </section>
+</main>
+
+<script>
+/* ============================================================
+   CONFIG — the developer's only wiring point.
+   In 'live' mode, calls POST to the assistents workflow webhook.
+   In 'demo' mode, uses the mock logic below (works offline).
+   ============================================================ */
+const CONFIG = {
+  mode: 'demo',                       // 'demo' | 'live'
+  assistentsWebhookUrl: 'https://YOUR-ASSISTENTS-WORKFLOW-WEBHOOK',  // dev fills this
+};
+
+/* ---- synthetic data (replace with PMS/CRM connector in live mode) ---- */
+const GUESTS = {
+  sharma:{id:'sharma',name:'Mr. Arjun Sharma',tier:'Diamond',stays:5,lang:'Hindi / English',
+    occasion:'Wedding anniversary tomorrow',room:'High floor, away from the elevator',
+    allergy:'Tree nuts (CRITICAL)',bev:'Single malt whisky',eligibleUpgrade:'Lake-View Suite',notes:'Quiet, values discretion'},
+  whitmore:{id:'whitmore',name:'Mr. James Whitmore',tier:'Platinum',stays:8,lang:'English',
+    occasion:'—',room:'Quiet room, late checkout usual',allergy:'Gluten-free',bev:'Red wine (Bordeaux)',
+    eligibleUpgrade:'Royal Club',notes:'Wine enthusiast; often dines at Jamavar'},
+  nair:{id:'nair',name:'Mrs. Priya Nair',tier:'Gold',stays:2,lang:'English / Malayalam',
+    occasion:'Birthday',room:'Family, connecting rooms',allergy:'Vegetarian (no egg)',bev:'Fresh lime soda',
+    eligibleUpgrade:'—',notes:'Travelling with two children; spa lover'},
+  rossi:{id:'rossi',name:'Ms. Sofia Rossi',tier:'New guest',stays:0,lang:'Italian',
+    occasion:'Honeymoon',room:'Lake view, king',allergy:'None noted',bev:'Prosecco',
+    eligibleUpgrade:'Lake-View Suite',notes:'First visit to India; speaks limited English'},
+  tanaka:{id:'tanaka',name:'Mrs. Aiko Tanaka',tier:'Gold',stays:3,lang:'Japanese',
+    occasion:'—',room:'Quiet floor, light sleeper',allergy:'Shellfish',bev:'Green tea',
+    eligibleUpgrade:'—',notes:'Prefers minimal disturbance; early riser'},
+};
+
+/* shared state */
+const state = { guests: JSON.parse(JSON.stringify(GUESTS)), tasks: [], selected:null };
+
+/* ---- the single integration point ----
+   demo mode = local logic; live mode = POST to assistents workflow ---- */
+async function callAgent(intent, payload){
+  if(CONFIG.mode==='live'){
+    const r = await fetch(CONFIG.assistentsWebhookUrl,{method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({intent, payload})});
+    return await r.json();           // expect {brief, actions} or {reply, captured, ...}
+  }
+  return mockAgent(intent, payload); // offline demo brain
+}
+
+/* ---- mock "agent brain" (the part assistents replaces in live mode) ---- */
+function mockAgent(intent, payload){
+  if(intent==='guest_brief'){
+    const g = state.guests[payload.id];
+    const crit = g.allergy.includes('CRITICAL')||/nut|shellfish|gluten/i.test(g.allergy);
+    const brief = `${g.name} is a <b>${g.tier}</b> guest`+(g.stays?` on their <b>${g.stays}th stay</b>`:` joining us for the <b>first time</b>`)+`. `+
+      (g.occasion!=='—'?`They are celebrating their <b>${g.occasion}</b>. `:``)+
+      `They prefer <b>${g.room.toLowerCase()}</b> and enjoy <b>${g.bev}</b>. `+
+      `Dietary: <span class="${crit?'crit':''}">${g.allergy}</span>. Language: ${g.lang}.`;
+    const actions=[];
+    if(g.occasion!=='—') actions.push({label:`Arrange ${g.occasion.split(' ')[0].toLowerCase()} amenity`,dept:'F&B / Guest Relations'});
+    if(g.eligibleUpgrade!=='—') actions.push({label:`Offer upgrade — ${g.eligibleUpgrade} (eligible)`,dept:'Front Office'});
+    if(crit) actions.push({label:`Brief kitchen on dietary: ${g.allergy}`,dept:'F&B — priority'});
+    actions.push({label:`Place preferred ${g.bev} in room`,dept:'In-room dining'});
+    return {brief, actions};
+  }
+}
+
+/* ---------- HOST CONSOLE ---------- */
+function renderList(filter=''){
+  const ul=document.getElementById('glist'); ul.innerHTML='';
+  Object.values(state.guests).filter(g=>g.name.toLowerCase().includes(filter.toLowerCase())).forEach(g=>{
+    const li=document.createElement('li'); if(state.selected===g.id) li.className='sel';
+    li.innerHTML=`<div class="t">${g.name}</div><div class="s">${g.tier} · ${g.occasion!=='—'?g.occasion:g.room}</div>`;
+    li.onclick=()=>selectGuest(g.id); ul.appendChild(li);
+  });
+}
+async function selectGuest(id){
+  state.selected=id; renderList(document.getElementById('gsearch').value);
+  const g=state.guests[id]; const card=document.getElementById('gcard');
+  card.innerHTML=`<div class="empty">Generating brief…</div>`;
+  const {brief,actions}=await callAgent('guest_brief',{id});
+  card.innerHTML=`
+    <h2 class="serif">${g.name}<span class="tier">${g.tier}</span></h2>
+    <div class="brief">${brief}</div>
+    <div class="facts">
+      <div><b>Stays</b>${g.stays||'First visit'}</div><div><b>Occasion</b>${g.occasion}</div>
+      <div><b>Room preference</b>${g.room}</div><div><b>Beverage</b>${g.bev}</div>
+      <div><b>Dietary / allergy</b>${g.allergy}</div><div><b>Language</b>${g.lang}</div>
+      <div style="grid-column:1/3"><b>Notes</b>${g.notes}</div>
+    </div>
+    <div class="eyebrow" style="margin-top:14px">AI · recommended next actions</div>
+    <div class="acts" id="acts"></div>`;
+  const wrap=document.getElementById('acts');
+  actions.forEach(a=>{
+    const b=document.createElement('button'); b.className='act';
+    b.innerHTML=`<span>${a.label}<div class="dept">${a.dept}</div></span><span class="go">Do it →</span>`;
+    b.onclick=()=>{ addTask(a.label,a.dept,g.name); b.classList.add('done'); b.querySelector('.go').textContent='✓ Done'; };
+    wrap.appendChild(b);
+  });
+}
+function addTask(label,dept,who){
+  const t={label,dept,who,when:new Date().toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'})};
+  state.tasks.unshift(t); renderTasks();
+}
+function renderTasks(){
+  const ul=document.getElementById('tasks');
+  if(!state.tasks.length){ul.innerHTML='<li class="empty" style="border:none;background:none">No actions yet.</li>';return;}
+  ul.innerHTML=state.tasks.map(t=>`<li><div>${t.label}</div><div class="when">${t.dept} · ${t.who} · ${t.when}</div></li>`).join('');
+}
+
+/* ---------- PRE-ARRIVAL CHAT ---------- */
+let chatStep=0, chatGuestId='rossi';
+const chatScript=[
+  {bot:g=>`Namaste ${g.name.split(' ').slice(1).join(' ')}, and welcome to The Leela. We're delighted to host you soon. May I help prepare your stay? Is there a special occasion?`,
+   qr:['It\'s our honeymoon','Just leisure','A birthday']},
+  {capture:'occasion', bot:()=>`How wonderful — congratulations. So we cater perfectly, any dietary preferences or allergies?`,
+   qr:['Vegetarian','No restrictions','Gluten-free']},
+  {capture:'allergy', bot:()=>`Noted with care. Would you like us to arrange anything ahead of arrival?`,
+   qr:['A spa session, please','A lake-view table for dinner','Airport transfer']},
+  {capture:'request', bot:()=>`My pleasure — consider it arranged. Your preferences are now with your host team, who will look after every detail. We look forward to welcoming you.`,
+   qr:[]},
+];
+function initChat(){
+  const sel=document.getElementById('chatGuest'); sel.innerHTML='';
+  Object.values(state.guests).forEach(g=>{const o=document.createElement('option');o.value=g.id;o.textContent=g.name;sel.appendChild(o);});
+  sel.value=chatGuestId; sel.onchange=e=>{chatGuestId=e.target.value;resetChat();};
+  resetChat();
+}
+function resetChat(){ chatStep=0; document.getElementById('chat').innerHTML=''; document.getElementById('note').style.display='none'; stepChat(); }
+function bubble(text,who){const d=document.createElement('div');d.className='msg '+who;d.innerHTML=text;document.getElementById('chat').appendChild(d);document.getElementById('chat').scrollTop=9e9;}
+function stepChat(){
+  const g=state.guests[chatGuestId]; const step=chatScript[chatStep];
+  bubble(step.bot(g),'bot');
+  const qr=document.getElementById('qr'); qr.innerHTML='';
+  step.qr.forEach(opt=>{const b=document.createElement('button');b.textContent=opt;b.onclick=()=>answer(opt);qr.appendChild(b);});
+}
+function answer(opt){
+  bubble(opt,'me');
+  const step=chatScript[chatStep];
+  if(step.capture){ // update shared guest profile (what assistents would write back)
+    const g=state.guests[chatGuestId];
+    if(step.capture==='occasion') g.occasion=opt.replace(/^It's |^A /,'');
+    if(step.capture==='allergy') g.allergy=opt;
+    if(step.capture==='request'){ addTask('Pre-arrival: '+opt,'Concierge · auto-orchestrated',g.name); }
+  }
+  chatStep++;
+  document.getElementById('qr').innerHTML='';
+  if(chatStep<chatScript.length){ setTimeout(stepChat,500); }
+  else { const note=document.getElementById('note'); note.style.display='block';
+    note.innerHTML='✓ Preferences captured · guest profile updated · <b>Host team briefed</b> — open the Host Console to see '+state.guests[chatGuestId].name+'\'s pre-briefed card.'; }
+}
+
+/* ---------- nav ---------- */
+document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>{
+  document.querySelectorAll('nav button').forEach(x=>x.classList.remove('on')); b.classList.add('on');
+  document.querySelectorAll('.view').forEach(v=>v.classList.remove('on'));
+  document.getElementById('v-'+b.dataset.v).classList.add('on');
+  if(b.dataset.v==='console'){ renderList(); if(state.selected) selectGuest(state.selected); }
+});
+document.getElementById('gsearch').oninput=e=>renderList(e.target.value);
+document.getElementById('modeLabel').textContent = CONFIG.mode==='live'?'LIVE (assistents)':'DEMO (mock)';
+renderList(); initChat();
+</script>
+</body>
+</html>
