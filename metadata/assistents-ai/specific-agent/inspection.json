@@ -1,35 +1,15 @@
 {
-  "capturedAt": "2026-06-29T12:00:35.234Z",
+  "capturedAt": "2026-06-30T06:26:59.573Z",
   "agentUrl": "https://internal.assistents.ai/agents/abbe2124-ce07-45e5-8e11-f4451794fada/edit",
   "pages": [
     {
       "name": "agent-edit",
-      "url": "https://internal.assistents.ai/login",
+      "url": "https://internal.assistents.ai/agents/abbe2124-ce07-45e5-8e11-f4451794fada/edit",
       "title": "assistents.ai | AI Agents and Assistants to Automate Tools and Grow Business",
-      "headings": [
-        "assistents.ai",
-        "Build Autonomous AI Agents for Your Enterprise Operations"
-      ],
-      "buttons": [
-        "Sign in\nSubmit form"
-      ],
-      "inputs": [
-        {
-          "tag": "input",
-          "type": "text",
-          "name": "email",
-          "placeholder": "Email or Username",
-          "value": ""
-        },
-        {
-          "tag": "input",
-          "type": "password",
-          "name": "password",
-          "placeholder": "********",
-          "value": ""
-        }
-      ],
-      "text": "assistents.ai\n\nWelcome back! Sign in to your account\n\nEmail or Username\nPassword\nForgot password?\nSign in\nSubmit form\n\nDon't have an account? Create account\n\nBuild Autonomous AI Agents for Your Enterprise Operations\n\nReimagine work with our Enterprise AI Platform to build, deploy, and scale custom AI agents for automation."
+      "headings": [],
+      "buttons": [],
+      "inputs": [],
+      "text": ""
     }
   ]
 }

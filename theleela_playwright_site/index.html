@@ -397,12 +397,18 @@ display: none;
 display: none !important;
 }
 .leela-agent {
+--leela-agent-top-clearance: 188px;
 position: fixed;
+top: var(--leela-agent-top-clearance);
 right: 28px;
-bottom: 26px;
+bottom: 22px;
 z-index: 99999;
+display: flex;
+flex-direction: column;
+align-items: flex-end;
 font-family: "National", Arial, sans-serif;
 color: #211f1d;
+pointer-events: none;
 }
 .leela-agent *,
 .leela-agent *::before,
@@ -411,7 +417,8 @@ box-sizing: border-box;
 }
 .leela-agent__panel {
 width: min(392px, calc(100vw - 32px));
-height: min(560px, calc(100vh - 120px));
+height: min(680px, calc(100vh - var(--leela-agent-top-clearance) - 22px));
+min-height: min(460px, calc(100vh - var(--leela-agent-top-clearance) - 22px));
 display: flex;
 flex-direction: column;
 overflow: hidden;
@@ -610,19 +617,22 @@ background: #a06e47;
 color: #fff;
 box-shadow: 0 16px 38px rgba(35, 28, 22, 0.28);
 cursor: pointer;
+pointer-events: auto;
 }
 .leela-agent.is-open .leela-agent__launcher {
-background: #292521;
+display: none;
 }
 @media (max-width: 575px) {
 .leela-agent {
+--leela-agent-top-clearance: 104px;
 right: 12px;
 bottom: 12px;
 left: 12px;
 }
 .leela-agent__panel {
 width: 100%;
-height: min(620px, calc(100vh - 96px));
+height: min(660px, calc(100vh - var(--leela-agent-top-clearance) - 12px));
+min-height: min(430px, calc(100vh - var(--leela-agent-top-clearance) - 12px));
 }
 .leela-agent__launcher {
 margin-right: 0;
