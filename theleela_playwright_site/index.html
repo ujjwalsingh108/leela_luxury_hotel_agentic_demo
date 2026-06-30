@@ -393,6 +393,36 @@ display: none;
 display: none;
 }
 </style><style id="assistents-embed-overrides">
+#userEngage .tl-connect__list-item-whatsapp > a {
+  align-items: center !important;
+}
+#userEngage .tl-connect__list-item-whatsapp .leela-whatsapp-icon {
+  aspect-ratio: 1 / 1 !important;
+  display: block !important;
+  flex: 0 0 48px !important;
+  height: 48px !important;
+  max-height: 48px !important;
+  max-width: 48px !important;
+  min-height: 48px !important;
+  min-width: 48px !important;
+  overflow: visible !important;
+  width: 48px !important;
+  filter: drop-shadow(0 10px 18px rgba(32, 27, 22, 0.18));
+  transform: translateZ(0);
+}
+#userEngage .tl-connect__list-item-whatsapp .leela-whatsapp-icon circle {
+  fill: #545554;
+  stroke: rgba(255, 255, 255, 0.86);
+  stroke-width: 1.4;
+}
+#userEngage .tl-connect__list-item-whatsapp > a:hover .leela-whatsapp-icon circle,
+#userEngage .tl-connect__list-item-whatsapp > a:focus-visible .leela-whatsapp-icon circle {
+  fill: #a06e47;
+}
+#userEngage .tl-connect__list-item-whatsapp .leela-whatsapp-icon path {
+  transform-box: fill-box;
+  transform-origin: center;
+}
 #assistents-embed-toggle {
   display: none !important;
 }
