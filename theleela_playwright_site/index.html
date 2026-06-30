@@ -392,558 +392,83 @@ display: none;
 }#CookiebotWidget .CookiebotWidget-body .CookiebotWidget-main-logo {
 display: none;
 }
-</style><style id="leela-concierge-styles">
-#userEngage {
-display: none !important;
+</style><style id="assistents-embed-overrides">
+#assistents-embed-toggle {
+  display: none !important;
 }
-.leela-agent {
---leela-agent-top-clearance: 188px;
-position: fixed;
-top: var(--leela-agent-top-clearance);
-right: 28px;
-bottom: 22px;
-z-index: 99999;
-display: flex;
-flex-direction: column;
-align-items: flex-end;
-font-family: "National", Arial, sans-serif;
-color: #211f1d;
-pointer-events: none;
+#assistents-embed-container {
+  right: 96px !important;
+  bottom: 22px !important;
+  z-index: 100000 !important;
 }
-.leela-agent *,
-.leela-agent *::before,
-.leela-agent *::after {
-box-sizing: border-box;
-}
-.leela-agent__panel {
-width: min(392px, calc(100vw - 32px));
-height: min(680px, calc(100vh - var(--leela-agent-top-clearance) - 22px));
-min-height: min(460px, calc(100vh - var(--leela-agent-top-clearance) - 22px));
-display: flex;
-flex-direction: column;
-overflow: hidden;
-background: #fbfaf6;
-border: 1px solid rgba(42, 36, 31, 0.12);
-border-radius: 8px;
-box-shadow: 0 24px 70px rgba(35, 28, 22, 0.24);
-transform: translateY(18px);
-opacity: 0;
-pointer-events: none;
-transition: opacity 180ms ease, transform 180ms ease;
-}
-.leela-agent.is-open .leela-agent__panel {
-opacity: 1;
-pointer-events: auto;
-transform: translateY(0);
-}
-.leela-agent__header {
-display: flex;
-align-items: center;
-gap: 12px;
-padding: 16px 18px;
-background: #292521;
-color: #fff;
-}
-.leela-agent__mark {
-width: 42px;
-height: 42px;
-display: grid;
-place-items: center;
-flex: 0 0 auto;
-border: 1px solid rgba(255, 255, 255, 0.5);
-border-radius: 50%;
-background: #a06e47;
-}
-.leela-agent__mark svg,
-.leela-agent__launcher svg,
-.leela-agent__send svg,
-.leela-agent__close svg {
-display: block;
-}
-.leela-agent__title {
-min-width: 0;
-flex: 1;
-}
-.leela-agent__title strong {
-display: block;
-font-family: "Playfair Display", Georgia, serif;
-font-size: 19px;
-font-weight: 500;
-line-height: 1.15;
-letter-spacing: 0;
-}
-.leela-agent__title span {
-display: inline-flex;
-align-items: center;
-gap: 7px;
-margin-top: 4px;
-font-size: 12px;
-line-height: 1.2;
-opacity: 0.9;
-}
-.leela-agent__title span::before {
-content: "";
-width: 7px;
-height: 7px;
-border-radius: 50%;
-background: #88d49a;
-}
-.leela-agent__close {
-width: 36px;
-height: 36px;
-display: grid;
-place-items: center;
-border: 0;
-border-radius: 50%;
-background: rgba(255, 255, 255, 0.12);
-color: #fff;
-cursor: pointer;
-}
-.leela-agent__body {
-flex: 1;
-min-height: 0;
-display: flex;
-flex-direction: column;
-background: linear-gradient(180deg, #fbfaf6 0%, #f2eee7 100%);
-}
-.leela-agent__messages {
-flex: 1;
-min-height: 0;
-overflow-y: auto;
-padding: 18px;
-scroll-behavior: smooth;
-}
-.leela-agent__message {
-display: flex;
-margin: 0 0 12px;
-}
-.leela-agent__message span {
-max-width: 84%;
-padding: 11px 13px;
-border-radius: 8px;
-font-size: 14px;
-line-height: 1.45;
-box-shadow: 0 8px 20px rgba(36, 29, 23, 0.07);
-}
-.leela-agent__message--agent span {
-background: #fff;
-border: 1px solid rgba(42, 36, 31, 0.08);
-color: #24211f;
-}
-.leela-agent__message--guest {
-justify-content: flex-end;
-}
-.leela-agent__message--guest span {
-background: #a06e47;
-color: #fff;
-}
-.leela-agent__chips {
-display: flex;
-gap: 8px;
-padding: 0 18px 14px;
-overflow-x: auto;
-}
-.leela-agent__chip {
-height: 36px;
-padding: 0 12px;
-border: 1px solid rgba(160, 110, 71, 0.34);
-border-radius: 999px;
-background: #fff;
-color: #5d4634;
-font-size: 13px;
-white-space: nowrap;
-cursor: pointer;
-}
-.leela-agent__chip:hover,
-.leela-agent__chip:focus-visible {
-border-color: #a06e47;
-outline: none;
-}
-.leela-agent__status {
-min-height: 18px;
-margin: 0;
-padding: 0 18px 8px;
-color: #675c52;
-font-size: 12px;
-line-height: 1.35;
-}
-.leela-agent__form {
-display: flex;
-gap: 10px;
-padding: 14px;
-border-top: 1px solid rgba(42, 36, 31, 0.1);
-background: rgba(255, 255, 255, 0.72);
-}
-.leela-agent__input {
-height: 44px;
-min-width: 0;
-flex: 1;
-border: 1px solid rgba(42, 36, 31, 0.18);
-border-radius: 6px;
-padding: 0 13px;
-background: #fff;
-color: #211f1d;
-font-size: 14px;
-outline: none;
-}
-.leela-agent__input:focus {
-border-color: #a06e47;
-box-shadow: 0 0 0 3px rgba(160, 110, 71, 0.14);
-}
-.leela-agent__send {
-width: 44px;
-height: 44px;
-display: grid;
-place-items: center;
-border: 0;
-border-radius: 6px;
-background: #292521;
-color: #fff;
-cursor: pointer;
-}
-.leela-agent__send:disabled {
-opacity: 0.55;
-cursor: wait;
-}
-.leela-agent__launcher {
-width: 58px;
-height: 58px;
-display: grid;
-place-items: center;
-margin: 14px 0 0 auto;
-border: 0;
-border-radius: 50%;
-background: #a06e47;
-color: #fff;
-box-shadow: 0 16px 38px rgba(35, 28, 22, 0.28);
-cursor: pointer;
-pointer-events: auto;
-}
-.leela-agent.is-open .leela-agent__launcher {
-display: none;
+#assistents-embed-iframe-wrapper {
+  right: 0 !important;
+  bottom: 0 !important;
+  width: min(420px, calc(100vw - 32px)) !important;
+  height: min(650px, calc(100vh - 110px)) !important;
 }
 @media (max-width: 575px) {
-.leela-agent {
---leela-agent-top-clearance: 104px;
-right: 12px;
-bottom: 12px;
-left: 12px;
+  #assistents-embed-container {
+    right: 14px !important;
+    bottom: 92px !important;
+  }
+  #assistents-embed-iframe-wrapper {
+    left: auto !important;
+    right: 0 !important;
+    transform: none !important;
+    width: calc(100vw - 28px) !important;
+    height: min(620px, calc(100vh - 128px)) !important;
+  }
 }
-.leela-agent__panel {
-width: 100%;
-height: min(660px, calc(100vh - var(--leela-agent-top-clearance) - 12px));
-min-height: min(430px, calc(100vh - var(--leela-agent-top-clearance) - 12px));
-}
-.leela-agent__launcher {
-margin-right: 0;
-}
-}
-</style><section class="leela-agent is-open" id="leelaAgent" aria-label="The Leela Digital Concierge"><div class="leela-agent__panel" role="dialog" aria-modal="false" aria-labelledby="leelaAgentTitle"><div class="leela-agent__header"><div class="leela-agent__mark" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M4 7.5C4 5.57 5.57 4 7.5 4h9C18.43 4 20 5.57 20 7.5v5.25c0 1.93-1.57 3.5-3.5 3.5H12l-4.5 3v-3A3.5 3.5 0 0 1 4 12.75V7.5Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M8 9h8M8 12h5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></div><div class="leela-agent__title"><strong id="leelaAgentTitle">The Leela Concierge</strong><span>Conversation agent online</span></div><button class="leela-agent__close" type="button" aria-label="Minimize concierge"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M6 12h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button></div><div class="leela-agent__body"><div class="leela-agent__messages" id="leelaAgentMessages" aria-live="polite"></div><div class="leela-agent__chips" id="leelaAgentChips" aria-label="Conversation starters"></div><p class="leela-agent__status" id="leelaAgentStatus"></p><form class="leela-agent__form" id="leelaAgentForm"><input class="leela-agent__input" id="leelaAgentInput" autocomplete="off" placeholder="Type your reply" aria-label="Message The Leela Concierge"><button class="leela-agent__send" id="leelaAgentSend" type="submit" aria-label="Send message"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m4 12 15-7-4 14-3-6-8-1Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></button></form></div></div><button class="leela-agent__launcher" type="button" aria-label="Open concierge chat" aria-expanded="true"><svg width="25" height="25" viewBox="0 0 24 24" fill="none"><path d="M4 7.5C4 5.57 5.57 4 7.5 4h9C18.43 4 20 5.57 20 7.5v5.25c0 1.93-1.57 3.5-3.5 3.5H12l-4.5 3v-3A3.5 3.5 0 0 1 4 12.75V7.5Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M8 9h8M8 12h5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button></section><script id="leela-concierge-script">
-(function () {
-var root = document.getElementById("leelaAgent");
-if (!root) return;
-var legacyWidget = document.getElementById("userEngage");
-if (legacyWidget) {
-legacyWidget.style.setProperty("display", "none", "important");
-legacyWidget.setAttribute("aria-hidden", "true");
-}
+</style>
+<script src="https://internal.assistents.ai/embed/agent.js"></script>
+<script>
+  AssistentsEmbed.init({
+    agentId: 'abbe2124-ce07-45e5-8e11-f4451794fada',
+    autoOpen: false,
+    position: 'bottom-right',
+    primaryColor: '#a06e47',
+    iframeWidth: 420,
+    iframeHeight: 650,
+  });
 
-var messagesEl = document.getElementById("leelaAgentMessages");
-var chipsEl = document.getElementById("leelaAgentChips");
-var statusEl = document.getElementById("leelaAgentStatus");
-var form = document.getElementById("leelaAgentForm");
-var input = document.getElementById("leelaAgentInput");
-var send = document.getElementById("leelaAgentSend");
-var launcher = root.querySelector(".leela-agent__launcher");
-var close = root.querySelector(".leela-agent__close");
+  (function () {
+    function toggleAssistentsChat(event) {
+      if (event) {
+        event.preventDefault();
+        event.stopPropagation();
+      }
+      if (window.AssistentsEmbed && typeof window.AssistentsEmbed.open === 'function' && typeof window.AssistentsEmbed.close === 'function') {
+        if (window.AssistentsEmbed.isOpen) {
+          window.AssistentsEmbed.close();
+        } else {
+          window.AssistentsEmbed.open();
+        }
+      } else {
+        window.setTimeout(function () {
+          if (window.AssistentsEmbed && typeof window.AssistentsEmbed.open === 'function' && typeof window.AssistentsEmbed.close === 'function') {
+            if (window.AssistentsEmbed.isOpen) {
+              window.AssistentsEmbed.close();
+            } else {
+              window.AssistentsEmbed.open();
+            }
+          }
+        }, 700);
+      }
+    }
 
-var state = {
-intent: "",
-purpose: "",
-fullName: "",
-location: "",
-phone: "",
-email: "",
-preferredTime: "",
-brochureType: "",
-consent: false,
-awaiting: "",
-completed: false
-};
+    function bindLiveChat() {
+      var liveChatLink = document.getElementById('liveChatLink');
+      if (!liveChatLink) return;
+      var cleanLiveChatLink = liveChatLink.cloneNode(true);
+      liveChatLink.parentNode.replaceChild(cleanLiveChatLink, liveChatLink);
+      cleanLiveChatLink.addEventListener('click', toggleAssistentsChat);
+    }
 
-var starters = [
-{ label: "Book a stay", value: "I want to book rooms" },
-{ label: "Wedding enquiry", value: "I have a wedding or event enquiry" },
-{ label: "Send brochure", value: "Send me a brochure on WhatsApp" },
-{ label: "Schedule call", value: "Schedule a call with reservations" },
-{ label: "Dining or spa", value: "I want dining or spa information" }
-];
-
-var fieldPrompts = {
-fullName: "May I have your full name, please?",
-location: "Which city, hotel, or address should I keep for this request?",
-phone: "Please share your phone number with country code, for example +919999999999.",
-email: "What email address may our team use for follow-up?",
-preferredTime: "What date and time would suit you for a call?",
-brochureType: "Which brochure would you like: rooms, weddings/events, dining/spa, offers, or hotel overview?",
-consent: "May I send this information to you on WhatsApp?"
-};
-
-var requiredByIntent = {
-brochure: ["fullName", "location", "phone", "brochureType", "consent"],
-callback: ["fullName", "location", "phone", "preferredTime"],
-booking: ["fullName", "location", "phone", "email"],
-wedding: ["fullName", "location", "phone", "email"],
-dining_spa: ["fullName", "location", "phone", "email"],
-offers: ["fullName", "location", "phone", "email"],
-general: ["fullName", "location", "phone", "email"]
-};
-
-function addMessage(role, text) {
-var row = document.createElement("div");
-row.className = "leela-agent__message leela-agent__message--" + role;
-var bubble = document.createElement("span");
-bubble.textContent = text;
-row.appendChild(bubble);
-messagesEl.appendChild(row);
-messagesEl.scrollTop = messagesEl.scrollHeight;
-}
-
-function setStatus(text) {
-statusEl.textContent = text || "";
-}
-
-function setOpen(open) {
-root.classList.toggle("is-open", open);
-launcher.setAttribute("aria-expanded", open ? "true" : "false");
-if (open) {
-window.setTimeout(function () { input.focus(); }, 120);
-}
-}
-
-function renderChips(items) {
-chipsEl.innerHTML = "";
-(items || starters).forEach(function (item) {
-var chip = document.createElement("button");
-chip.type = "button";
-chip.className = "leela-agent__chip";
-chip.textContent = item.label || item;
-chip.addEventListener("click", function () {
-handleUserText(item.value || item.label || item);
-});
-chipsEl.appendChild(chip);
-});
-}
-
-function inferIntent(text) {
-var value = text.toLowerCase();
-if (value.indexOf("brochure") > -1 || value.indexOf("whatsapp") > -1) return "brochure";
-if (value.indexOf("call") > -1 || value.indexOf("phone") > -1) return "callback";
-if (value.indexOf("book") > -1 || value.indexOf("room") > -1 || value.indexOf("stay") > -1) return "booking";
-if (value.indexOf("wedding") > -1 || value.indexOf("event") > -1 || value.indexOf("meeting") > -1) return "wedding";
-if (value.indexOf("dining") > -1 || value.indexOf("restaurant") > -1 || value.indexOf("spa") > -1) return "dining_spa";
-if (value.indexOf("offer") > -1 || value.indexOf("package") > -1) return "offers";
-return "general";
-}
-
-function intentName(intent) {
-return {
-brochure: "brochure request",
-callback: "callback request",
-booking: "room booking enquiry",
-wedding: "wedding or event enquiry",
-dining_spa: "dining or spa enquiry",
-offers: "offers enquiry",
-general: "guest enquiry"
-}[intent] || "guest enquiry";
-}
-
-function normalizeBrochure(text) {
-var value = text.toLowerCase();
-if (value.indexOf("wedding") > -1 || value.indexOf("event") > -1) return "weddings_events";
-if (value.indexOf("dining") > -1 || value.indexOf("spa") > -1) return "dining_spa";
-if (value.indexOf("offer") > -1) return "offers";
-if (value.indexOf("room") > -1 || value.indexOf("suite") > -1) return "rooms";
-return "hotel_overview";
-}
-
-function isYes(text) {
-return /^(yes|y|sure|ok|okay|please|consent|i agree)/i.test(text.trim());
-}
-
-function nextMissingField() {
-var fields = requiredByIntent[state.intent || "general"];
-for (var i = 0; i < fields.length; i += 1) {
-var field = fields[i];
-if (field === "consent") {
-if (!state.consent) return field;
-} else if (!state[field]) {
-return field;
-}
-}
-return "";
-}
-
-function askNext() {
-var next = nextMissingField();
-state.awaiting = next;
-if (next) {
-addMessage("agent", fieldPrompts[next]);
-return;
-}
-completeFlow();
-}
-
-function storeAwaitedField(text) {
-var field = state.awaiting;
-if (!field) return false;
-var value = text.trim();
-if (field === "phone") {
-var cleaned = value.replace(/[^\d+]/g, "");
-if (!/^\+[1-9]\d{7,14}$/.test(cleaned)) {
-addMessage("agent", "Please include the country code so our team can reach you, for example +919999999999.");
-return true;
-}
-state.phone = cleaned;
-} else if (field === "email") {
-if (value.toLowerCase() === "skip") {
-state.email = "not provided";
-} else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)) {
-addMessage("agent", "Please share a valid email address, or type skip if you prefer phone follow-up only.");
-return true;
-} else {
-state.email = value;
-}
-} else if (field === "consent") {
-if (!isYes(value)) {
-addMessage("agent", "No problem. I will record the enquiry without WhatsApp consent.");
-state.intent = "general";
-state.consent = false;
-} else {
-state.consent = true;
-}
-} else if (field === "brochureType") {
-state.brochureType = normalizeBrochure(value);
-} else {
-state[field] = value;
-}
-state.awaiting = "";
-askNext();
-return true;
-}
-
-function startFlow(text) {
-state.intent = inferIntent(text);
-state.purpose = text;
-state.completed = false;
-setStatus("Collecting details for " + intentName(state.intent) + ".");
-addMessage("agent", "Certainly. I will collect a few details and share them with the right Leela team.");
-askNext();
-}
-
-function api(path, payload) {
-return fetch(path, {
-method: "POST",
-headers: { "Content-Type": "application/json" },
-body: JSON.stringify(payload)
-}).then(function (response) {
-return response.json().then(function (body) {
-if (!response.ok || body.ok === false) {
-throw new Error(body.error || "Request failed");
-}
-return body;
-});
-});
-}
-
-function completeFlow() {
-send.disabled = true;
-setStatus("Sending details to The Leela concierge workflow.");
-var payload = {
-fullName: state.fullName,
-phone: state.phone,
-email: state.email === "not provided" ? "" : state.email,
-preferredHotelOrCity: state.location,
-message: state.purpose + ". Location/address: " + state.location,
-enquiryType: state.intent,
-source: "leela_website_conversation_agent"
-};
-var request;
-if (state.intent === "brochure" && state.consent) {
-request = api("/api/leela/send-brochure", {
-fullName: state.fullName,
-phone: state.phone,
-brochureType: state.brochureType || "hotel_overview",
-preferredHotelOrCity: state.location,
-whatsappConsent: true,
-source: "leela_website_conversation_agent"
-});
-} else if (state.intent === "callback") {
-request = api("/api/leela/schedule-call", {
-fullName: state.fullName,
-phone: state.phone,
-preferredDateTime: state.preferredTime,
-topic: state.purpose,
-locationOrAddress: state.location,
-source: "leela_website_conversation_agent"
-});
-} else {
-request = api("/api/leela/enquiry", payload);
-}
-request.then(function (body) {
-var id = body.leadId || body.enquiryId || body.callbackId || body.bookingLeadId || "recorded";
-addMessage("agent", "Thank you, " + state.fullName + ". I have captured your " + intentName(state.intent) + " and shared it with our team. Reference: " + id + ".");
-setStatus("Details sent successfully.");
-state.completed = true;
-renderChips([
-{ label: "New enquiry", value: "I have another enquiry" },
-{ label: "Schedule call", value: "Schedule a call with reservations" },
-{ label: "Send brochure", value: "Send me a brochure on WhatsApp" }
-]);
-}).catch(function () {
-addMessage("agent", "Thank you, " + state.fullName + ". I have the details for our concierge team. The local API is not running right now, so this was kept in the chat session only.");
-setStatus("Start the Leela API server to persist agent leads.");
-}).finally(function () {
-send.disabled = false;
-});
-}
-
-function handleUserText(text) {
-var value = (text || "").trim();
-if (!value) return;
-addMessage("guest", value);
-input.value = "";
-if (state.completed) {
-state.intent = "";
-state.purpose = "";
-state.fullName = "";
-state.location = "";
-state.phone = "";
-state.email = "";
-state.preferredTime = "";
-state.brochureType = "";
-state.consent = false;
-state.awaiting = "";
-state.completed = false;
-}
-api("/api/leela/chat", { message: value, context: { intent: state.intent } }).catch(function () {});
-if (storeAwaitedField(value)) return;
-startFlow(value);
-}
-
-form.addEventListener("submit", function (event) {
-event.preventDefault();
-handleUserText(input.value);
-});
-launcher.addEventListener("click", function () {
-setOpen(!root.classList.contains("is-open"));
-});
-close.addEventListener("click", function () {
-setOpen(false);
-});
-
-addMessage("agent", "Namaste, welcome to The Leela. I can help you plan a stay, request a brochure on WhatsApp, schedule a call, or share an enquiry. What may I help you with today?");
-renderChips(starters);
-setOpen(true);
-}());
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', bindLiveChat);
+    } else {
+      bindLiveChat();
+    }
+  }());
 </script><img style="display:none;" src="_assets/image.page-source.com-resizeimage-29fe7d1f3e4b.ashx" width="0" height="0"></body></html>
