@@ -4,6 +4,7 @@ npm-debug.log*
 Thumbs.db
 .env
 tools/ngrok.exe
-tools/ngrok.log
+tools/ngrok*.log
 tools/ngrok.zip
 metadata/runtime/*.jsonl
+metadata/runtime/*.png
