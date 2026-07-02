@@ -127,6 +127,7 @@ weddings_events
 dining_spa
 offers
 hotel_overview
+leela_palace_hotel
 ```
 
 ### Success Response
@@ -257,7 +258,7 @@ Use:
     },
     "brochureType": {
       "type": "string",
-      "enum": ["rooms", "weddings_events", "dining_spa", "offers", "hotel_overview"],
+      "enum": ["rooms", "weddings_events", "dining_spa", "offers", "hotel_overview", "leela_palace_hotel"],
       "description": "Type of brochure requested"
     },
     "whatsappConsent": {

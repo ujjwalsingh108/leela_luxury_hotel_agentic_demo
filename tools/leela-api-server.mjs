@@ -15,6 +15,7 @@ const brochureUrls = {
   dining_spa: process.env.BROCHURE_DINING_SPA_URL || "https://www.theleela.com/wellness",
   offers: process.env.BROCHURE_OFFERS_URL || "https://www.theleela.com/special-offers",
   hotel_overview: process.env.BROCHURE_HOTEL_OVERVIEW_URL || "https://www.theleela.com/",
+  leela_palace_hotel: process.env.BROCHURE_LEELA_PALACE_HOTEL_URL || "https://www.theleela.com/",
 };
 
 const mimeTypes = new Map([

@@ -29,6 +29,7 @@ Brochure types:
 - dining_spa
 - offers
 - hotel_overview
+- leela_palace_hotel
 
 Flow:
 
@@ -219,4 +220,3 @@ Loyalty required fields:
 - do not ask for passwords, OTPs, payment, or sensitive identity documents
 
 For these intents, answer from knowledge base when possible and create an enquiry if human follow-up is required.
-

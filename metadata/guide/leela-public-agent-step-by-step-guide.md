@@ -580,6 +580,7 @@ WATI_BROCHURE_TEMPLATE=leela_brochure_send
 WATI_BROADCAST_NAME=leela_brochure_send
 BROCHURE_ROOMS_URL=https://example.com/leela-rooms-brochure.pdf
 BROCHURE_EVENTS_URL=https://example.com/leela-events-brochure.pdf
+BROCHURE_LEELA_PALACE_HOTEL_URL=https://example.com/leela-palace-hotel-brochure.pdf
 RESERVATION_URL=https://reservations.theleela.com?chain=23514
 ```
 

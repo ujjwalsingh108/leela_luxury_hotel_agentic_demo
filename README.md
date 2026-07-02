@@ -73,6 +73,7 @@ Set these only when connecting real services:
 - `WHATSAPP_TOKEN`, `WHATSAPP_PHONE_NUMBER_ID` - WhatsApp Cloud API credentials.
 - `WATI_API_BASE`, `WATI_API_TOKEN` - WATI integration credentials.
 - `WATI_WEBHOOK_SECRET` - optional webhook verification secret.
+- `BROCHURE_LEELA_PALACE_HOTEL_URL` - optional hosted URL for the Leela Palace hotel brochure.
 
 ## Refresh The Mirrored Site
 

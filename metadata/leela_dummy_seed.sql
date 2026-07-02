@@ -140,8 +140,8 @@ INSERT INTO bookings (
 SELECT
   ((gs - 1) % 100) + 1 AS guest_id,
   ((gs - 1) % 10) + 1 AS hotel_id,
-  CURRENT_DATE + (((gs - 1) % 21) - 3 || ' days')::INTERVAL AS arrival_date,
-  CURRENT_DATE + (((gs - 1) % 21) - 1 + (1 + (gs % 4)) || ' days')::INTERVAL AS departure_date,
+  CURRENT_DATE + (((gs - 1) % 21) || ' days')::INTERVAL AS arrival_date,
+  CURRENT_DATE + (((gs - 1) % 21) + (1 + (gs % 4)) || ' days')::INTERVAL AS departure_date,
   (ARRAY[
     'Premier Room','Royal Club Room','Conservatory Premier','Lake-View Room',
     'Royal Suite','Maharaja Suite','Presidential Suite','Garden View Room'
@@ -156,8 +156,7 @@ SELECT
   (ARRAY['Direct Web','WhatsApp','OTA','Corporate','Travel Agent','GHA DISCOVERY'])[1 + (gs % 6)] AS booking_channel,
   CASE
     WHEN gs % 19 = 0 THEN 'Cancelled'
-    WHEN ((gs - 1) % 21) - 3 < 0 THEN 'Checked Out'
-    WHEN ((gs - 1) % 21) - 3 = 0 THEN 'Checked In'
+    WHEN ((gs - 1) % 21) = 0 THEN 'Checked In'
     ELSE 'Confirmed'
   END AS status,
   (ARRAY[
@@ -289,7 +288,7 @@ SELECT
     WHEN 5 THEN 12000 + (gs % 5) * 2500
     ELSE 1800 + (gs % 6) * 350
   END AS amount_inr,
-  CURRENT_DATE + (((gs - 1) % 21) - 3 || ' days')::INTERVAL AS txn_date
+  CURRENT_DATE + (((gs - 1) % 21) || ' days')::INTERVAL AS txn_date
 FROM generate_series(1, 250) AS gs;
 
 -- Quick row-count check
